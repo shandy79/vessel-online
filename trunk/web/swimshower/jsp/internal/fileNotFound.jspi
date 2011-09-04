@@ -1,0 +1,6 @@
+<%@ page language="java" contentType="text/html;charset=iso-8859-1" %>
+
+<h1>File Not Found</h1>
+<p>The resource you have attempted to retrieve is not available.  Please check that
+  the URL you entered is correct or use one of the links on this page to visit another
+  part of the Swim Shower web site.</p>

@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html;charset=iso-8859-1" %>
+
+<h1>Login Required</h1>
+<p>The resource you have attempted to retrieve is restricted.
+  Please enter your username and password below.</p>
+
+<form id="usr_login" method="post" action="j_security_check"><table><tr>
+<td class="lbl">Username:</td><td><input type="text" name="j_username" size="10" maxlength="36" class="txt" /></td>
+</tr><tr>
+<td class="lbl">Password:</td><td><input type="password" name="j_password" size="10" maxlength="36" class="txt" /></td>
+</tr><tr>
+<td colspan="2"><input type="submit" value="Log In" class="btn" /> <input type="reset" value="Clear" class="btn" /></td>
+</tr></table></form>
+<p>New user?  <a href="register.jsf">Register here!</a>  If you have forgotten your password, please contact
+the site administration at
+<a href="mailto:<%= SwimShowerResource.ADMIN_EMAIL %>"><%= SwimShowerResource.ADMIN_EMAIL %></a>.</p>

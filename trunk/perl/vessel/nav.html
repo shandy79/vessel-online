@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>Vessel Online</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" type="text/css" href="site/css/nav.css" />
+<script type="text/javascript" src="site/js/dhtmlApi.js"></script>
+<script type="text/javascript" src="site/js/nav.js"></script>
+<script type="text/javascript">
+<!--
+  MM_reloadPage(true);
+// -->
+</script>
+<base target="Main" />
+</head>
+<body onload="initDHTMLAPI(); return preloadImg()">
+<div id="leftBk"><img src="img/nav/leftBk.gif" alt="logo background" /></div>
+
+<div id="bio" style="position:absolute; left:8px; top:155px; width:130px; height:25px">
+<a href="javascript:void(0);" onclick="return changeMenu('bioMenu')" onmouseout="return rollNavOut('bio',0)" onmouseover="return rollNavOver('bio',0,'Myself, my family, my friends...')">
+  <img src="img/nav/bioNav.gif" id="bio0" alt="Biography" /></a></div>
+
+<div id="int" style="position:absolute; left:8px; top:198px; width:130px; height:25px">
+<a href="javascript:void(0);" onclick="return changeMenu('intMenu')" onmouseout="return rollNavOut('int',1)" onmouseover="return rollNavOver('int',1,'How I like to occupy my time...')">
+  <img src="img/nav/intNav.gif" id="int1" alt="Interests" /></a></div>
+
+<div id="pro" style="position:absolute; left:8px; top:241px; width:130px; height:25px">
+<a href="javascript:void(0);" onclick="return changeMenu('proMenu')" onmouseout="return rollNavOut('pro',2)" onmouseover="return rollNavOver('pro',2,'Career and academic information...')">
+  <img src="img/nav/proNav.gif" id="pro2" alt="Professional" /></a></div>
+
+<div id="hom" style="position:absolute; left:101px; top:396px; width:50px; height:20px">
+<a href="home.html" onclick="return changeMenu('homMenu')" onmouseout="return rollNavOut('hom',3)" onmouseover="return rollNavOver('hom',3,'Restart Vessel Online...')">
+  <img src="img/nav/homNav.gif" id="hom3" alt="Home" /></a></div>
+
+<div id="bioMenu" style="position:absolute; left:31px; top:303px; width:80px; height:84px; visibility:hidden">
+  <table cellspacing="0" cellpadding="0">
+    <tr><td><a href="bio.html" onmouseover="return statusMsg('The story of my life...')" onmouseout="return statusMsg('')">
+      bio</a></td></tr>
+    <tr><td><a href="family.html" onmouseover="return statusMsg('Blood is thicker than water...')" onmouseout="return statusMsg('')">
+      family</a></td></tr>
+    <tr><td><a href="friends.html" onmouseover="return statusMsg('Keep your friends close...')" onmouseout="return statusMsg('')">
+      friends</a></td></tr>
+  </table>
+</div>
+
+<div id="intMenu" style="position:absolute; left:31px; top:303px; width:80px; height:84px; visibility:hidden">
+  <table cellspacing="0" cellpadding="0">
+    <tr><td><a href="a_e.html" onmouseover="return statusMsg('A little culture never hurt anyone...')" onmouseout="return statusMsg('')">
+      a &amp; e</a></td></tr>
+    <tr><td><a href="music.html" class="ln" onmouseover="return statusMsg('And all the choirs of angels...')" onmouseout="return statusMsg('')">
+      music</a></td></tr>
+    <tr><td><a href="sports.html" class="ln" onmouseover="return statusMsg('The sweet taste of victory...')" onmouseout="return statusMsg('')">
+      sports</a></td></tr>
+  </table>
+</div>
+
+<div id="proMenu" style="position:absolute; left:31px; top:303px; width:80px; height:84px; visibility:hidden">
+  <table cellspacing="0" cellpadding="0">
+    <tr><td><a href="learning.html" onmouseover="return statusMsg('Knowledge is power...')" onmouseout="return statusMsg('')">
+      learning</a></td></tr>
+    <tr><td><a href="career.html" onmouseover="return statusMsg('Ambition bites the nails of success...')" onmouseout="return statusMsg('')">
+      career</a></td></tr>
+    <tr><td><a href="resume.html" onmouseover="return statusMsg('How far I\'ve come...')" onmouseout="return statusMsg('')">
+      r&eacute;sum&eacute;</a></td></tr>
+  </table>
+</div>
+
+<div id="homMenu" style="position:absolute; left:31px; top:303px; width:80px; height:84px">
+  <table cellspacing="0" cellpadding="0">
+    <tr><td><a href="contact.html" onmouseover="return statusMsg('Make Vessel a better place...')" onmouseout="return statusMsg('')">
+      contact</a></td></tr>
+    <tr><td><a href="design.html" onmouseover="return statusMsg('How the walls were built...')" onmouseout="return statusMsg('')">
+      design</a></td></tr>
+    <tr><td><a href="navigate.html" onmouseover="return statusMsg('Stay in or find your way to the door...')" onmouseout="return statusMsg('')">
+      navigate</a></td></tr>
+  </table>
+</div>
+</body></html>

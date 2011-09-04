@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+   XML Schema for Fantasy Sports League Transaction Response
+   For use in an Ajax data exchange.
+   Steven Handy
+    </xsd:documentation>
+  </xsd:annotation>
+  <!-- C:\Java\eclipse\workspace\Prototypes>C:\Java\jaxb-ri-20061115\bin\xjc.bat
+       -nv -p edu.stsci.jwst.prds.cms.cpbundler.core.jaxb.cp_description
+       edu\stsci\jwst\prds\cms\cpbundler\core\api\cp_description.xsd -->
+  <!-- Major Organization -->
+  <xsd:element name="Response">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Result">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="SUCCESS"/>
+              <xsd:enumeration value="FAILURE"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="LastParticipant" type="ParticipantType" />
+        <xsd:element name="NextParticipant" type="ParticipantType" maxOccurs="5" />
+        <xsd:element name="LastPlayer" type="PlayerType" maxOccurs="5" />        
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+<!-- xsd:pattern value="[A-Za-z0-9_-]+(\.[A-Za-z0-9_-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)+" / -->
+
+  <xsd:complexType name="ParticipantType">
+    <xsd:sequence>
+      <xsd:element name="FantasyTeamID">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:unsignedInt">
+            <xsd:minInclusive value="1" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="TeamName">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:minLength value="5" />
+            <xsd:maxLength value="60" />
+            <xsd:pattern value="[A-Za-z\.\- ]+" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="TeamAbbr">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:minLength value="1" />
+            <xsd:maxLength value="4" />
+            <xsd:pattern value="[A-Z]+" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="OwnerName">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:minLength value="5" />
+            <xsd:maxLength value="60" />
+            <xsd:pattern value="[A-Za-z\.\- ]+" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="PlayerType">
+    <xsd:sequence>
+      <xsd:choice>
+        <xsd:element name="PlayerID">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:unsignedInt">
+              <xsd:minInclusive value="1" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="PlayerDetails">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="PlayerName">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:minLength value="5" />
+                    <xsd:maxLength value="60" />
+                    <xsd:pattern value="[A-Za-z\.\- ]+" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="PositionID">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:unsignedInt">
+                    <xsd:minInclusive value="1" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="ProTeamID">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:unsignedInt">
+                    <xsd:minInclusive value="1" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

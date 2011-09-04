@@ -1,0 +1,27 @@
+<!--
+body { background-color: black;
+       background-image: url("../../img/bg.gif");
+       color: white;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       font-size: 10pt;
+       margin: 0px;
+       padding: 0px; }
+h1 { color: red;
+     font-size: 15pt;
+     font-weight: normal;
+     margin-bottom: 1px;
+     text-transform: uppercase; }
+h2 { color: red;
+     font-size: 13pt;
+     margin-bottom: 3px; }
+td { font-size: 10pt; }
+ol, ul { margin-bottom: 3px;
+         margin-top: 3px; }
+a:link { color: red; }
+a:visited { color: #b22222; }
+a:active { color : yellow; }
+a:hover { color: yellow; }
+img { border-width: 0px; }
+.ln { font-size: 12pt;
+      text-decoration: none; }
+-->

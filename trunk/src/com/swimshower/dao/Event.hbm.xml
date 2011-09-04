@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="com.swimshower.model.Event" table="event">
+    <id name="id" column="event_id">
+      <generator class="native" />
+    </id>
+    <property name="title" unique="true" not-null="true" length="64" />
+    <property name="subject" column="category" length="32" />
+    <property name="description" type="text" not-null="true" />
+    <property name="date" column="event_date" type="timestamp" not-null="true" />
+    <property name="source" />
+    <property name="creator" column="host" length="64" not-null="true" />
+    <property name="edited" type="timestamp" />
+    <property name="hostURL" column="host_url" />
+    <property name="endDate" column="end_date" type="timestamp" not-null="true" />
+    <property name="address" length="64" />
+    <property name="city" length="32" not-null="true" />
+    <property name="state" length="16" not-null="true" />
+    <many-to-one name="contributor" column="person_id" class="org.vesselonline.model.Person" not-null="true" />
+    <many-to-one name="editor" column="person_id2" class="org.vesselonline.model.Person" />
+
+    <bag name="comments" table="event_comment" inverse="true" cascade="all-delete-orphan" order-by="event_comment_id asc">
+      <key column="event_id" />
+      <one-to-many class="org.vesselonline.model.Comment" entity-name="EventComment" />
+    </bag>
+  </class>
+
+  <class name="org.vesselonline.model.Comment" table="event_comment" entity-name="EventComment">
+    <id name="id" column="event_comment_id">
+      <generator class="native" />
+    </id>
+    <property name="description" type="text" not-null="true" />
+    <property name="date" column="event_comment_date" type="timestamp" not-null="true" />
+    <property name="subject" column="location" length="32" />
+    <property name="ipAddress" column="ip_address" not-null="true" length="15" />
+    <property name="edited" type="timestamp" />
+    <many-to-one name="contributor" column="person_id" class="org.vesselonline.model.Person" not-null="true" />
+    <many-to-one name="relation" column="event_id" class="com.swimshower.model.Event" not-null="true" />
+  </class>
+</hibernate-mapping>

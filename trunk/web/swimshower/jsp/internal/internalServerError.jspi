@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html;charset=iso-8859-1"
+    isErrorPage="true" %>
+
+<h1>Internal Server Error</h1>
+<p>There seems to be a problem with the Swim Shower web site.  This is probably
+  only a temporary issue, so please check <a href="javascript:history.back();">BACK</a>
+  momentarily.  If you continue to have problems, please send email to
+  <a href="mailto:<%= SwimShowerResource.ADMIN_EMAIL %>"><%= SwimShowerResource.ADMIN_EMAIL %></a>
+  and attach any error message displayed below.</p>
+<pre><%= exception.getMessage() %></pre>

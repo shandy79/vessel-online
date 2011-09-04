@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html;charset=iso-8859-1" %>
+
+<h1>Login Failed</h1>
+<p>Your credentials do not match a valid user account.  Please use 
+the <a href="login.jsp">log in form</a> to attempt to log in again,
+<a href="register.jsf">register</a> for an account, or use one of the
+links on this page to visit another part of the Swim Shower web site.
+If you have forgotten your password, please contact the site administration
+at <a href="mailto:<%= SwimShowerResource.ADMIN_EMAIL %>"><%= SwimShowerResource.ADMIN_EMAIL %></a>.</p>
