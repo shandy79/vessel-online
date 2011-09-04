@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>WebRSS News Reader</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="Description" lang="en" content="CGI web-based news reader.">
+<meta name="Keywords" lang="en" content="RSS, news reader">
+<script type="text/javascript">
+<!--
+var empty = /^\s*$/;
+
+function lastItem() {
+  if (! empty.test(document.jsdata.jsitem.value)) {
+    parent.Body.location.href = document.jsdata.jsitem.value;
+  } else {
+    alert('No items viewed!');
+  }
+  return;
+}
+
+function lastChannel() {
+  if (! empty.test(document.jsdata.jschannel.value)) {
+    parent.Body.location.href = document.jsdata.jschannel.value;
+  } else {
+    alert('No channels viewed!');
+  }
+  return;
+}
+
+function noFrames() {
+  try {
+    top.location.href = parent.Body.location.href;
+  } catch (e) {
+    if (! empty.test(document.jsdata.jsitem.value) && confirm('OK to use last viewed item?')) {
+      top.location.href = document.jsdata.jsitem.value;
+    } else if (! empty.test(document.jsdata.jschannel.value) && confirm('OK to use last viewed channel?')) {
+      top.location.href = document.jsdata.jschannel.value;
+    }
+  }
+
+  return;  
+}
+// -->
+</script>
+<style type="text/css">
+<!--
+body { font-family: Verdana, Arial, Helvetica, sans-serif;
+       margin: 0px;
+       padding: 0px;
+       background-color: #999999; }
+.title { color: white;
+         font-size: 22pt; }
+.tab { background-color: #cccccc;
+       background-image: url(nw_maj_rond.gif);
+       background-repeat: no-repeat;
+       border-bottom: 1px solid #999999;
+       border-left: 1px solid #ffffff;
+       border-right: 1px solid #000000;
+       border-top: 1px solid #ffffff;
+       color: #000000;
+       font-size: 7pt;
+       font-weight: bold;
+       width: 75px; }
+a:link { color: black;
+         text-decoration: none; }
+a:visited { color: black; }
+a:active { color: #ffa500; }
+a:hover { color: blue; }
+-->
+</style>
+</head>
+<body marginheight="0" marginwidth="0">
+<table cellpadding="4" cellspacing="0" width="100%"><tr>
+  <td colspan="4"><span class="title">WebRSS News Reader</span></td>
+  <td rowspan="2" align="right"><img src="rss.jpg" alt="XML/RSS" /></td>
+</tr><tr>
+  <td class="tab"><a href="javascript:void(0);" onClick="top.history.back()">Back</a></td>
+  <td class="tab"><a href="javascript:lastChannel();">Last Channel</a></td>
+  <td class="tab"><a href="javascript:lastItem();">Last Item</a></td>
+  <td class="tab"><a href="javascript:noFrames();">No Frames</a></td>
+</tr></table>
+<form name="jsdata"><input type="hidden" name="jschannel" id="jschannel_id">
+  <input type="hidden" name="jsitem" id="jsitem_id"></form>
+</body>
+</html>
+

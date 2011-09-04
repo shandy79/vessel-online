@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Vessel Online Draft Room</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<!-- Individual YUI CSS files --> 
+<link rel="stylesheet" type="text/css" href="css/yui/reset-fonts-grids.css" />
+<link rel="stylesheet" type="text/css" href="css/yui/skin.css" />
+<!-- Individual YUI JS files -->
+<script type="text/javascript" src="js/yui/utilities.js"></script>
+<script type="text/javascript" src="js/yui/container-min.js"></script>
+<script type="text/javascript" src="js/yui/resize-min.js"></script>
+<script type="text/javascript" src="js/yui/layout-min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/marquee.css" />
+<script type="text/javascript" src="js/marquee.js"></script>
+
+<style type="text/css">
+<!--
+  table { margin: 3px; }
+  td,th { border: 1px solid black;
+          padding: 2px; }
+
+  .yui-layout-unit-top div.yui-layout-bd { color: black;
+                                           font-size: 42pt; 
+                                           font-weight: bold; }
+
+  #round-time { float: right;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 24pt;
+                text-align: center;
+                vertical-align: middle; }
+
+  .yui-layout-unit-left div { background-color: #b22222; }
+  .yui-layout-unit-left div.yui-layout-bd { font-size: 14pt; }
+
+  .left-table { background-color: #426fd9;
+                width: 330px; }
+  .left-table a { font-weight: bold;
+                  text-decoration: none;
+                  text-transform: uppercase; }
+  .left-table a:link, .left-table a:visited, .left-table a:active, .left-table a:hover { color: white; }
+
+  .left-table .selected { background-color: #b22222; }
+  .left-table .selected a:link, .left-table .selected a:visited,
+  .left-table .selected a:active, .left-table .selected a:hover { color: black; }
+
+  #clock { font-family: 'Courier New', Courier, monospace;
+           font-size: 80pt;
+           font-weight: bold;
+           height: 120px;
+           text-align:center; }
+
+  #onclock-hdr-table { background-color: #b22222;
+                       font-family: 'Courier New', Courier, monospace; }
+  #onclock-hdr-table th { font-size: 36pt;
+                          font-weight: bold; }
+  #onclock-hdr-table td { font-size: 24pt; }
+
+  .onclock-bd-table { font-size: 18pt;
+                      font-weight: bold;
+                      width: 100%; }
+  .onclock-bd-table th { background-color: #426fd9;
+                         color: white;
+                         text-align: center;
+                         text-transform: uppercase; }
+
+
+#example {height:30em;}
+label { display:block;float:left;width:45%;clear:left; }
+.clear { clear:both; }
+#resp { margin:10px;padding:5px;border:1px solid #ccc;background:#fff;}
+#resp li { font-family:monospace }
+-->
+</style>
+
+</head>
+<body class="yui-skin-sam" onload="initClockAndTime(5, 'down');">
+<div id="top1">
+  <div style="float:left;">
+    <img src="http://static.nfl.com/static/site/img/global/nfl-logo.png" height="75" style="vertical-align:middle;" />
+    BSFL Draft Room 2009
+  </div>
+  <div id="round-time"><span id="round">Round 1 - Pick 1</span><br /><span id="time">00:00 AM</span></div>
+</div>
+
+<div id="bottom1">
+  <div style="float:left;">
+    <table><tr><td style="background-color:#426fd9;color:white;font-size:12pt;font-weight:bold;">Last 5 Picks:</td><td>
+      <div id="marqueecontainer1" class="marqueecontainer" onmouseover="copySpeed=pauseSpeed;" onmouseout="copySpeed=marqueeSpeed;">
+        <div id="vmarquee1" class="vmarquee">
+1. MO - Ladainian Tomlinson RB - SD<br />2. AA - Adrian Peterson RB - MIN<br />3. SPSD - Brian Westbrook RB - PHI<br />4. SAHB - Joseph Addai RB - IND<br />5. DF - Stephen Jackson RB - STL
+        </div>
+      </div>
+    </td></tr></table>
+  </div>
+
+  <div style="float:right;">
+    <table><tr><td style="background-color:#426fd9;color:white;font-size:12pt;font-weight:bold;">Next 5 Up:</td><td>
+      <div id="marqueecontainer2" class="marqueecontainer" onmouseover="copySpeed=pauseSpeed;" onmouseout="copySpeed=marqueeSpeed;">
+        <div id="vmarquee2" class="vmarquee">
+6. Jessup Mini Pumas - Owens<br />7. Sicilian Wadfathers - Meawad<br />8. Calvert County Crushers - Craun<br />9. Super Happy Fun Team - Robins<br />10. Team Laird - Laird
+        </div>
+      </div>
+    </td></tr></table>
+  </div>
+  
+  <!-- div>
+    <b>ADMIN:</b> <a href="#">Draft Player</a> | <a href="#">Undo Last Pick</a> | <a href="#">Go To Pick</a>
+  </div -->
+</div>
+
+<div id="left1">
+  <table id="team-table" class="left-table">
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Jay Beel">Millersville Outlaws</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Jon Miskimon">Alexander's Alliance</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Kevin Sellers">Sandy Point Sewage Dump</a></td></tr>
+    <tr><td class="selected"><a href="#" title="Steve Handy">St. Agnes Homeboy Bonanza</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Aaron Semenick">Das Foot! Pro Tools</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Ian Owens">Jessup Mini Pumas</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Chris Meawad">Sicilian Wadfathers</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Ryan Craun">Calvert County Crushers</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Uriah Robins">Super Happy Fun Team</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Eric Laird">Team Laird</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Russ Johnson">Whoa Meade High Lloyd Carrs</a></td></tr>
+    <tr><td onmouseover="this.className='selected';" onmouseout="this.className='';"><a href="#" title="Chris Esposito">Columbia Dweebs</a></td></tr>
+  </table>
+
+  <div id="clock">0:00</div>
+  <div style="font-size:8pt;text-align:center;"><a href="javascript:initClock(5,'down');">Reset</a>
+   &nbsp;&nbsp;<a href="javascript:clearTimeout(clockID);">Stop</a></div>
+
+  <table class="left-table">
+    <tr style="text-align:center;"><td colspan="3"><a href="/reports">Reports</a></td></tr>
+    <tr style="text-align:center;"><td style="width:33%;"><a href="/layout.html?res=480">480</a></td>
+      <td style="width:34%;"><a href="/layout.html?res=720">720</a></td>
+      <td style="width:33%;"><a href="/layout.html?res=1080">1080</a></td></tr>
+    <tr style="text-align:center;"><td colspan="3"><a href="/admin">Admin</a></td></tr>
+  </table>
+</div>
+
+<div id="center1">
+  <table id="onclock-hdr-table"><tr>
+    <th colspan="2">St. Agnes Homeboy Bonanza</th>
+    <th rowspan="2"><img src="http://static.nfl.com/static/site/img/global/nfl-logo.png" /></th>
+  </tr><tr style="background-color:#426fd9;color:white;">
+    <td>Steve Handy</td>
+    <td>Crab Division</td>  
+  </tr></table>
+
+  <p>&nbsp;<br />&nbsp;</p>
+
+  <div style="float:left;width:45%;">
+    <table class="onclock-bd-table">
+      <tr style="background-color:#b22222;"><td colspan="3">Projected Starters</td></tr>
+      <tr><th>Position</th><th>Player</th><th>Team</th></tr>
+      <tr><td>QB</td><td>Tony Romo</td><td>DAL</td></tr>
+      <tr><td>RB</td><td>Joseph Addai</td><td>IND</td></tr>
+      <tr><td>WR</td><td>Wes Welker</td><td>NE</td></tr>
+      <tr><td>WR</td><td>Marvin Harrison</td><td>IND</td></tr>
+      <tr><td>RB</td><td>Thomas Jones</td><td>NYJ</td></tr>
+      <tr><td>TE</td><td>Tony Scheffler</td><td>DEN</td></tr>
+      <tr><td>K</td><td>Nate Kaeding</td><td>SD</td></tr>
+      <tr><td>D/ST</td><td>Buccaneers</td><td>TB</td></tr>
+    </table>
+  </div>
+
+  <div style="float:right;margin-right:20px;width:45%;">
+    <table class="onclock-bd-table">
+      <tr style="background-color:#b22222;"><td colspan="3">Bench</td></tr>
+      <tr><th>Position</th><th>Player</th><th>Team</th></tr>
+      <tr><td>QB</td><td>David Garrard</td><td>JAC</td></tr>
+      <tr><td>RB</td><td>Chris Johnson</td><td>TEN</td></tr>
+      <tr><td>RB</td><td>Jerious Norwood</td><td>ATL</td></tr>
+      <tr><td>WR</td><td>Donald Driver</td><td>GB</td></tr>
+      <tr><td>WR</td><td>Patrick Crayton</td><td>DAL</td></tr>
+      <tr><td>TE</td><td>Todd Heap</td><td>BAL</td></tr>
+      <tr><td>??</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+      <tr><td>D/ST</td><td>Ravens</td><td>BAL</td></tr>
+    </table>
+  </div>
+
+  <div><button id="show">Show dialog1</button></div>
+
+  <div id="dialog1">
+<div class="hd">Please enter your information</div>
+<div class="bd">
+<form method="post" action="#">
+	<label for="firstname">First Name:</label><input type="text" name="firstname" />
+	<label for="lastname">Last Name:</label><input type="text" name="lastname" />
+	<label for="email">E-mail:</label><input type="text" name="email" /> 
+
+	<label for="state[]">State:</label>
+	<select multiple="multiple" name="state[]">
+
+		<option value="California">California</option>
+		<option value="New Jersey">New Jersey</option>
+		<option value="New York">New York</option>
+	</select> 
+
+	<div class="clear"></div>
+
+	<label for="radiobuttons">Radio buttons:</label>
+	<input type="radio" name="radiobuttons[]" value="1" checked="checked"/> 1
+	<input type="radio" name="radiobuttons[]" value="2" /> 2
+	
+	<div class="clear"></div>
+
+	<label for="check">Single checkbox:</label><input type="checkbox" name="check" value="1" /> 1
+	
+	<div class="clear"></div>
+		
+	<label for="textarea">Text area:</label><textarea name="textarea"></textarea>
+
+	<div class="clear"></div>
+
+	<label for="cbarray">Multi checkbox:</label>
+
+	<input type="checkbox" name="cbarray[]" value="1" /> 1
+	<input type="checkbox" name="cbarray[]" value="2" /> 2
+</form>
+</div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+<!--
+(function() {
+  var Dom = YAHOO.util.Dom,
+  Event = YAHOO.util.Event;
+
+  Event.onDOMReady(function() {
+    var layout = new YAHOO.widget.Layout({
+      units: [
+        { position: 'top',
+          body: 'top1',
+          height: 95,
+          gutter: '5px',
+          collapse: false,
+          resize: false },
+        { position: 'bottom',
+          body: 'bottom1',
+          header: 'Transaction Log',
+          height: 100,
+          gutter: '5px',
+          collapse: true,
+          resize: false },
+        { position: 'left',
+          body: 'left1',
+          header: 'Teams',
+          width: 350,
+          gutter: '5px',
+          collapse: true,
+          resize: true,
+          animate: true,
+          scroll: true },
+        { position: 'center',
+          body: 'center1',
+          header: 'On The Clock',
+          scroll: true }
+      ]
+    });
+
+    layout.render();
+  });
+})();
+
+
+function init() {
+  // Define various event handlers for Dialog
+  var handleSubmit = function() { this.submit(); };
+  var handleCancel = function() { this.cancel(); };
+  var handleFailure = function(o) { alert("Submission failed: " + o.status); };
+
+  var handleSuccess = function(o) {
+    var response = o.responseText;
+    response = response.split("<!")[0];
+    document.getElementById("resp").innerHTML = response;
+  };
+
+  // Instantiate the Dialog
+  var dialog1 = new YAHOO.widget.Dialog("dialog1", 
+                      { width: "30em",
+                        fixedcenter: true,
+                        visible: false,
+                        constraintoviewport: true,
+                        buttons: [ { text:"Submit", handler:handleSubmit, isDefault:true },
+                                   { text:"Cancel", handler:handleCancel } ],
+                        effect: {effect:YAHOO.widget.ContainerEffect.FADE, duration:0.5}
+                      });
+
+	// Validate the entries in the form to require that both first and last name are entered
+	dialog1.validate = function() {
+		var data = this.getData();
+		if (data.firstname == "" || data.lastname == "") {
+			alert("Please enter your first and last names.");
+			return false;
+		} else {
+			return true;
+		}
+	};
+
+	// Wire up the success and failure handlers
+	dialog1.callback = { success: handleSuccess,
+						     failure: handleFailure };
+	
+	// Render the Dialog
+	dialog1.render();
+
+	YAHOO.util.Event.addListener("show", "click", dialog1.show, dialog1, true);
+}
+
+YAHOO.util.Event.onDOMReady(init);
+
+
+var teamID = 4;
+var teamName = 'St. Agnes Homeboy Bonanza';
+var teamAbbr = 'SAHB';
+var clockID;
+
+
+function initClockAndTime(mins, upDown) {
+  initClock(mins, upDown);
+  runTime();
+  setInterval("runTime()", 60000);
+}
+
+
+function runTime() {
+  var now = new Date();
+  var dispMins = now.getMinutes();
+  var dispHrs = now.getHours();
+  var amPm = 'AM';
+
+  if (dispHrs == 0) {
+    dispHrs = 12;
+  } else if (dispHrs == 12) {
+    amPm = 'PM';
+  } else if (dispHrs > 12) {
+    dispHrs -= 12;
+    amPm = 'PM';
+  }
+
+  if (dispMins < 10) { dispMins = '0' + dispMins; }
+  if (dispHrs < 10) { dispHrs = '0' + dispHrs; }
+
+  document.getElementById('time').innerHTML = dispHrs + ':' + dispMins + ' ' + amPm;
+}
+
+
+function initClock(mins, upDown) {
+  var secs = mins * 60;
+
+  if (upDown == 'down') {
+    document.getElementById('clock').innerHTML = mins + ':00';
+  } else {
+    secs = 0;
+    document.getElementById('clock').innerHTML = '0:00';
+  }
+
+  clearTimeout(clockID);
+  clockID = runClock(secs, upDown); 
+}
+
+
+function runClock(secs, upDown) {
+  var dispSecs = 0;
+  var dispMins = 0;
+
+  if (upDown == 'down') {
+    secs--;
+    if (secs == -1) { secs = 0; }
+  } else {
+    secs++;
+  }
+
+  dispMins = Math.floor(secs / 60);
+  dispSecs = secs % 60;
+  if (dispSecs < 10) { dispSecs = '0' + dispSecs; }
+
+  document.getElementById('clock').innerHTML = dispMins + ':' + dispSecs;
+  clockID = setTimeout("runClock(" + secs + ", '" + upDown + "')", 1000);
+}
+//-->
+</script>
+</body>
+</html>

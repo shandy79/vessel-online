@@ -1,0 +1,107 @@
+<!--
+  /* NOTES
+   * -----
+   * See A List Apart's article on Multi-Column Layouts
+   * (http://www.alistapart.com/articles/multicolumnlayouts/ and
+   * http://www.alistapart.com/d/multicolumnlayouts/2ColFixedLeftContentTallest.html)
+   * for information on the HTML and CSS structures used for this layout.
+   */
+
+  /* Layout and Positioning */
+  body { background-color: #188ec9;
+         color: black;
+         font-family: Verdana, Arial, Helvetica, sans-serif;
+         font-size: 10pt;
+         text-align: center; }
+
+  #header, #footer { background-color: #0f2014;
+                     color: white;
+                     font-size: 8pt;
+                     margin: auto;
+                     overflow: hidden;
+                     text-align: center;
+                     width: 950px; }
+
+  #container { background-color: white;
+               margin: auto;
+               overflow: hidden;
+               text-align: left;
+	           width: 950px; }
+
+  #content { background-color: white;
+             border-left: 180px solid #365236;  /* The width and color of the rail */
+             float: right;
+             margin-left: -180px;  /* The width of the rail */
+             padding-left: 15px;
+             width: 755px; }  /* padding-left + width = container width - rail width */
+
+  #rail { background-color: #365236;
+          color: white;
+          float: left;
+          width: 180px; }
+
+  /* General */
+  a:link { color: #f36c12; }
+  a:visited { color: #ebb54b; }
+  a:active,a:hover { color: #52a251; }
+  h1 { color: white;  /* #365236; */
+       font-family: Georgia, "Times New Roman", Times, serif;;
+       font-size: 24pt;
+       font-weight: bold;
+       margin-bottom: 3px; }
+  h2 { color: #365236;
+       font-family: Georgia, "Times New Roman", Times, serif;;
+       font-size: 18pt;
+       font-weight: bold;
+       margin-bottom: 3px;
+       margin-top: 3px; }
+  h3 { color: #365236;
+       font-family: Georgia, "Times New Roman", Times, serif;;
+       font-size: 14pt;
+       font-weight: bold;
+       margin-bottom: 3px; }
+  img { border-width: 0px; }
+  ul li { list-style: disc outside none; }
+  ol,ul { margin-bottom: 3px;
+          margin-left: 1em;
+          margin-top: 3px;
+          padding-left: 5px; }
+  select,textarea,.txt { border: 2px solid green;  /* .txt is for input type="text" */
+                         font-family: "Courier New", Courier, monospace;
+                         font-size: 9pt; }
+  .btn { background-color: green;  /* .btn is for input type="submit|reset|button" */
+         border: 2px solid yellow;
+         color: white;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 8pt; }
+
+  #menu_tbl { border-collapse: collapse;
+              border: 2px solid #f36c12;
+              width: 100%; }
+  #menu_tbl td { background-color: #0f2014;
+                 border: 1px solid #f36c12;
+                 font-family: Georgia, "Times New Roman", Times, serif;
+                 font-size: 12pt;
+                 font-weight: bold;
+                 padding: 2px; }
+  #menu_tbl td a { display: block;
+                   height: 100%;
+                   text-decoration: none;
+                   width: 100%; }
+  #menu_tbl td a:hover { background-color: #ebb54b; }
+
+  .this_pg { background-color: #ebb54b !important;
+             color: #52a251; }
+
+  .error { color: red;
+           font-weight: bold; }
+
+  .form_table { border-width: 0px; }
+  .form_table th { font-weight: bold;
+                   text-align: right; }
+
+  .action_span { color: #f36c12;
+                 cursor: pointer;
+                 font-size: smaller;
+                 font-weight: bold; }
+-->

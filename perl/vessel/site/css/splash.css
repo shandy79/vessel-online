@@ -1,0 +1,14 @@
+<!--
+body { background-color: black;
+       color: white;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       font-size: 11pt;
+       margin: 0px;
+       padding: 0px; }
+a { text-decoration: none; }
+a:link { color: red; }
+a:visited { color: #b22222; }
+a:active { color : yellow; }
+a:hover { color: yellow; }
+img { border-width: 0px; }
+-->

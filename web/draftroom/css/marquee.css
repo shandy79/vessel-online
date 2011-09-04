@@ -1,0 +1,26 @@
+<!--
+/*
+ * File: css/marquee.css
+ * CSS to apply required styling to scrolling marquee.
+ * Steven Handy (created: 10/10/2008, last mod: 10/13/2008)
+ *
+ * http://www.dynamicdrive.com/dynamicindex2/cmarquee2.htm
+ * You must include this file when attempting to use the scrolling marquee
+ * widget specified in js/marquee.js.
+ */
+  @CHARSET "UTF-8";
+
+  .marqueecontainer { position: relative;
+                      width: 400px;  /* marquee width */
+                      height: 50px;  /* marquee height */
+                      background-color: #b22222;
+                      font-size: 16pt;
+                      font-weight: bold;
+                      overflow: hidden;
+                      border: 1px solid black;
+                      padding: 2px;
+                      padding-left: 4px; }
+
+  .vmarquee { position:absolute;
+              width:98%; }
+-->

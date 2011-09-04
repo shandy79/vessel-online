@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="org.vesselonline.model.Person" table="person">
+    <id name="id" column="person_id">
+      <generator class="native" />
+    </id>
+    <property name="lastname" not-null="true" length="32" />
+    <property name="firstname" not-null="true" length="32" />
+    <property name="email" length="128" />
+    <property name="username" unique="true" length="16" />
+    <property name="password" length="40" />
+    <property name="description" type="text" />
+    <property name="joinDate" column="join_date" type="timestamp" not-null="true" />
+    <property name="webSite" column="web_site" />
+    <property name="icon" length="4" />
+
+    <set name="roles" table="person_role">
+      <key column="person_id" />
+      <many-to-many column="role_id" class="org.vesselonline.model.Role" />
+    </set>
+  </class>
+
+  <class name="org.vesselonline.model.Role" table="role">
+    <id name="id" column="role_id">
+      <generator class="native" />
+    </id>
+
+    <property name="rolename" unique="true" not-null="true" length="16" />
+    <property name="sortOrder" column="sort_order" not-null="true" />
+    <property name="display" not-null="true" length="24" />
+
+    <set name="persons" table="person_role" inverse="true">
+      <key column="role_id" />
+      <many-to-many column="person_id" class="org.vesselonline.model.Person" />
+    </set>
+  </class>
+</hibernate-mapping>

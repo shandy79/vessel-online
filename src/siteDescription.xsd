@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.vesselonline.org"
+ xmlns="http://www.vesselonline.org" elementFormDefault="qualified">
+
+  <xsd:element name="jWebUnitSiteDescription">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="name" type="xsd:string" />
+        <xsd:element name="baseUrl" type="xsd:string" />
+        <xsd:element name="testSuite" type="xsd:string" />
+        <xsd:element name="session" minOccurs="0">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="cookieName" type="xsd:string" />
+              <xsd:element name="cookieValue" type="xsd:string" />
+              <xsd:element name="userName" type="xsd:string" />
+              <xsd:element name="passwdElem" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="frames">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="frame" type="frameElement" maxOccurs="unbounded" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="resources">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="resource" type="resourceType" maxOccurs="unbounded" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:complexType name="frameElement">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="testFixture" type="xsd:string" use="required" />
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="resourceType">
+    <xsd:sequence>
+      <xsd:element name="name" type="xsd:string" />
+      <xsd:element name="url" type="xsd:string" />
+      <xsd:element name="frame" type="xsd:string" />
+      <xsd:element name="title" type="xsd:string" minOccurs="0" />
+      <xsd:element name="h1" type="xsd:string" minOccurs="0" />
+      <xsd:element name="h2" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element name="img" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element name="text" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element name="link" type="linkElement" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element name="table" type="tableType" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element name="forms" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="form" type="formType" maxOccurs="unbounded" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="linkElement">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="type" use="required">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="img" />
+              <xsd:enumeration value="txt" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="tableType">
+    <xsd:sequence>
+      <xsd:element name="summary" type="xsd:string" />
+      <xsd:element name="text" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="formType">
+    <xsd:sequence>
+      <xsd:element name="id" type="xsd:string" />
+      <xsd:element name="testFixture" type="xsd:string" />
+      <xsd:element name="input">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="text" type="formElement" maxOccurs="unbounded" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="checkCookie" default="true" use="optional">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:boolean">
+          <xsd:pattern value="true|false" />
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:complexType>
+
+  <xsd:complexType name="formElement">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+</xsd:schema>

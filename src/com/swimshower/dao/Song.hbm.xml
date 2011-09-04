@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="com.swimshower.model.Song" table="song">
+    <id name="id" column="song_id">
+      <generator class="native" />
+    </id>
+    <property name="title" unique="true" not-null="true" length="64" />
+    <property name="subject" column="length" length="5" />
+    <property name="description" type="text" not-null="true" />
+    <property name="date" column="song_date" type="timestamp" not-null="true" />
+    <property name="source" />
+    <property name="creator" column="author" length="64" not-null="true" />
+    <property name="edited" type="timestamp" />
+    <property name="sizeInMegabytes" column="size_in_mb" />
+    <property name="lyrics" type="text" />
+    <many-to-one name="contributor" column="person_id" class="org.vesselonline.model.Person" not-null="true" />
+    <many-to-one name="editor" column="person_id2" class="org.vesselonline.model.Person" />
+
+    <bag name="comments" table="song_comment" inverse="true" cascade="all-delete-orphan" order-by="song_comment_id asc">
+      <key column="song_id" />
+      <one-to-many class="org.vesselonline.model.Comment" entity-name="SongComment" />
+    </bag>
+  </class>
+
+  <class name="org.vesselonline.model.Comment" table="song_comment" entity-name="SongComment">
+    <id name="id" column="song_comment_id">
+      <generator class="native" />
+    </id>
+    <property name="description" type="text" not-null="true" />
+    <property name="date" column="song_comment_date" type="timestamp" not-null="true" />
+    <property name="subject" column="location" length="32" />
+    <property name="ipAddress" column="ip_address" not-null="true" length="15" />
+    <property name="edited" type="timestamp" />
+    <many-to-one name="contributor" column="person_id" class="org.vesselonline.model.Person" not-null="true" />
+    <many-to-one name="relation" column="song_id" class="com.swimshower.model.Song" not-null="true" />
+  </class>
+</hibernate-mapping>
