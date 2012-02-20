@@ -23,8 +23,8 @@ public enum DailyBriefingUtils {
   INSTANCE;
 
   // Copied from the API Access tab on the Google APIs Console
-  private final String clientID = "139746109601.apps.googleusercontent.com";
-  private final String clientSecret = "1VQx9JFY-1HJiAMgQ967PSqO";
+  private final String clientID = "<client_id>";
+  private final String clientSecret = "<client_secret>";
   // Redirect for installed applications
   private final String redirectURL = "urn:ietf:wg:oauth:2.0:oob";
   // Read-only OAuth 2.0 scope for Google APIs
