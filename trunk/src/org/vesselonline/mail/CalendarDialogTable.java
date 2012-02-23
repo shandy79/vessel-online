@@ -137,11 +137,11 @@ public class CalendarDialogTable extends JTable {
       add(buttonPanel, BorderLayout.SOUTH);
 
       pack();
+      setLocationRelativeTo(calendarDisplay);
       setVisible(true);
     }
 
     private void handleException(Exception e, Event event) {
-//e.printStackTrace();
       JOptionPane.showMessageDialog(this, "An error occurred while trying to update your \"" + event.getSummary() +
           "\" event.", DIALOG_TITLE, JOptionPane.ERROR_MESSAGE);
     }
