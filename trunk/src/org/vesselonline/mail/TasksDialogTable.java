@@ -95,6 +95,7 @@ public class TasksDialogTable extends JTable {
       add(buttonPanel, BorderLayout.SOUTH);
 
       pack();
+      setLocationRelativeTo(tasksDisplay);
       setVisible(true);
     }
 
