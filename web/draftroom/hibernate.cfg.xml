@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<!-- Adapted from http://www.hibernate.org/114.html (hibernate.org - Using Hibernate with Tomcat) -->
+<hibernate-configuration>
+  <session-factory>
+    <!-- Database connection settings -->
+    <property name="hibernate.connection.datasource">java:comp/env/jdbc/DraftRoomDB</property>
+
+    <!-- SQL dialect -->
+    <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+
+    <!-- Enable Hibernate's automatic session context management -->
+    <property name="current_session_context_class">thread</property>
+
+    <!-- Disable the second-level cache  -->
+    <property name="cache.use_second_level_cache">false</property>
+    <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+    <property name="cache.use_query_cache">false</property>
+    <property name="cache.use_minimal_puts">false</property>
+    <property name="max_fetch_depth">3</property>
+
+    <!-- Echo all executed SQL to stdout (DEBUG ONLY!) -->
+    <!-- property name="show_sql">true</property -->
+    <!-- property name="format_sql">true</property -->
+
+    <!-- Update the database schema on startup -->
+    <!-- property name="hbm2ddl.auto">update</property -->
+
+    <mapping resource="org/vesselonline/draftroom/dao/FantasyTeam.hbm.xml" />
+    <mapping resource="org/vesselonline/draftroom/dao/Owner.hbm.xml" />
+    <mapping resource="org/vesselonline/draftroom/dao/Player.hbm.xml" />
+    <mapping resource="org/vesselonline/draftroom/dao/Position.hbm.xml" />
+    <mapping resource="org/vesselonline/draftroom/dao/Team.hbm.xml" />
+  </session-factory>
+</hibernate-configuration>
