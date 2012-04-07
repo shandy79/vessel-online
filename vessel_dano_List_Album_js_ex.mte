@@ -1,0 +1,125 @@
+$filename(%_workingdir%_catalog.html,utf-8)<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Mp3tag - Music Catalog</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="GENERATOR" content="Mp3tag - http://www.mp3tag.de" />
+<!-- idea to extend the album list by forum user schneigis -->
+<script type="text/javascript">
+<!--
+function show(id) {
+  if (document.getElementById("show" + id).style.display == ''none'') {
+    document.getElementById("show" + id).style.display = '''';
+  } else {
+    document.getElementById("show" + id).style.display = ''none'';
+  }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+  body { font-family: Verdana, Tahoma, Arial, sans-serif;
+         font-size: 11px;
+         margin: 4px;
+         padding: 0px;
+         text-align: left;
+         color: #fff;
+         background-color: #000; }
+  h1 { vertical-align: middle;
+       font-size: 14px;
+       font-weight: bold;
+       padding: 8px 0px 8px 5px;
+       color: #f00;
+       background-color: #fff;
+       text-align: left; }
+  table { border-width: 0px;
+          width: 100%%; }
+  table, tr, td { color: #fff;
+                  font-family: Verdana, Tahoma, Arial, sans-serif;
+                  font-size: 11px;
+                  margin: 0px; }
+  th { background-color: #999;
+       color: #000;
+       font-weight: bold;
+       margin: 0px;
+       padding: 7px; }
+  a:link, a:visited, a:active { color: #f00;
+                                font-weight: bold;
+                                text-decoration: underline; }
+  a:hover { color: #ff0;
+            font-weight: bold;
+            text-decoration: underline; }
+
+  .col1_4 { text-align: center;
+            width: 5%%; }
+  .col2 { text-align: left;
+          width: 40%%; }
+  .col3 { text-align: right;
+          width: 32%%; }
+  .col5 { text-align: center;
+          width: 18%%; }
+  .row1 { background-color: #555; }
+  .row1 a:link, .row1 a:visited, .row1 a:active { color: #fff; }
+  .row1 a:hover { color: #ff0; }
+  .row2 { background-color: #333; }
+  .row3 { background-color: #111; }
+-->
+</style>
+</head>
+<body>
+<h1>MP3tag Album Overview ("%_workingdir%"): $loop(%album%,1)$loopend()%_max_counter% Albums | %_total_size% | %_total_files% Files | %_total_time% Hours</h1>
+
+<table>
+<tr>
+  <th class="col1_4">...</th>
+  <th style="text-align:left;width:72%%;">Artist</th>
+  <th class="col1_4">Year</th>
+  <th class="col5">Genre</th>
+</tr>
+</table>
+
+$loop($if2(%albumartist%,%artist%))
+<!-- ARTIST -->
+<table>
+<tr>
+  <td class="row1 col1_4">$num(%_counter%,3)</td>
+  <td class="row1 col2"><a href="javascript:show(''$regexp($if2(%albumartist%,%artist%),'"| |&|!|\+|/|\?|\[|\]|\(|\)|,|''',)'');">$replace($if2(%albumartist%,%artist%),&,&amp;)</a></td>
+  <td class="row1 col3">$loop(%album%,1)$loopend()<b>%_max_counter% Album(s)</b> %_total_size% | %_total_files% files | %_total_time% hrs</td>
+  <td class="row1 col1_4">&nbsp;</td>
+  <td class="row1 col5">$replace(%genre%,&,&amp;)</td>
+</tr>
+</table>
+<table style="display:none;" id="show$regexp($if2(%albumartist%,%artist%),'"| |&|!|\+|/|\?|\[|\]|\(|\)|,|''',)">$loop($num(%year%,5)%album%)
+  <!-- ALBUM -->
+  <tr>
+    <td class="row2 col1_4">-$num(%_counter%,2)</td>
+    <td class="row2 col2"><a href="javascript:show(''$regexp($if2(%albumartist%,%artist%)%album%,'"| |&|!|\+|/|\?|\[|\]|\(|\)|,|''',)'');">$replace(%album%,&,&amp;)</a></td>
+    <td class="row2 col3">%_total_size% | %_total_files% Files | %_total_time% hrs </td>
+    <td class="row2 col1_4">%year%</td>
+    <td class="row2 col5">$replace(%genre%,&,&amp;)</td>
+  </tr>
+  <tr style="display:none;" id="show$regexp($if2(%albumartist%,%artist%)%album%,'"| |&|!|\+|/|\?|\[|\]|\(|\)|,|''',)">
+    <td class="row3">&nbsp;</td>
+    <td class="row3 col2">$loop($num(%discnumber%,3)$num(%track%,4))
+      [%track% | ]$replace(%title%,&,&amp;,<,&lt;,>,&gt;)<br />$loopend()
+    </td>
+    <td class="row3 col3">$loop(%_filename_ext%)%_file_size% | %_bitrate%kbps | %_length%min | $replace(%_codec%,Free Lossless Audio Codec,FLAC)<br />$loopend()</td>
+    <td class="row3">&nbsp;</td>
+    <td class="row3 col5">%_total_size%<br />%_total_files% Files[<br />(%_vbr%)]</td>
+  </tr>$loopend()
+</table>
+$loopend()
+
+<p style="text-align:center;">Generated on %_date% with <a href="http://www.mp3tag.de/">%_app%</a> - the <b>universal</b> Tag Editor</p>
+</body>
+</html>
+
+<!-- Reference URLs
+  dano export configs, slightly updated:  http://forums.mp3tag.de/index.php?showtopic=4504
+  Miscellaneous Export scripts:  http://forums.mp3tag.de/index.php?showtopic=11887
+  Mp3tag Help - Export:  http://help.mp3tag.de/options_export.html
+  http://help.mp3tag.de/main_scripting.html - Scripting functions:  
+-->
