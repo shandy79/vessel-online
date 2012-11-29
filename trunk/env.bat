@@ -2,19 +2,20 @@
 rem http://technet.microsoft.com/en-us/library/bb490954.aspx
 
 set SOFTWARE_LIB=C:\Users\handy\Software
-set ANT_BIN=%SOFTWARE_LIB%\eclipse-helios\plugins\org.apache.ant_1.7.1.v20100518-1145\bin
+set ANT_BIN=%SOFTWARE_LIB%\eclipse-juno\plugins\org.apache.ant_1.8.3.v20120321-1730\bin
 set CVS_BIN=%SOFTWARE_LIB%\cvs-1.11.22
 set DIFF_BIN=%SOFTWARE_LIB%\diffutils-2.8.7\bin
 set GREP_BIN=%SOFTWARE_LIB%\grep-2.5.4\bin
-set PUTTY_BIN=%SOFTWARE_LIB%\putty-0.61
+set PUTTY_BIN=%SOFTWARE_LIB%\StandaloneExe\putty-0.62
 set WGET_BIN=%SOFTWARE_LIB%\wget-1.11.4\bin
 
-set JAVA_HOME=C:\Program Files\Java\jdk1.6.0_25
+set JAVA_HOME=C:\Program Files\Java\jdk1.6.0_35
 set JAVA_BIN=%JAVA_HOME%\bin
-set PYTHON_BIN=C:\Python27
+set PYTHON_HOME=C:\Python27
+set PYTHON_SCRIPTS=%PYTHON_HOME%\Scripts
 
 set ORIG_PATH=%PATH%
-set PATH=%ANT_BIN%;%CVS_BIN%;%DIFF_BIN%;%GREP_BIN%;%PUTTY_BIN%;%WGET_BIN%;%JAVA_BIN%;%PYTHON_BIN%;%PATH%
+set PATH=%ANT_BIN%;%CVS_BIN%;%DIFF_BIN%;%GREP_BIN%;%PUTTY_BIN%;%WGET_BIN%;%JAVA_BIN%;%PYTHON_HOME%;%PYTHON_SCRIPTS%;%PATH%
 
 set HOME=%HOMEDRIVE%%HOMEPATH%
 set PRDS=C:\PRDS
@@ -38,5 +39,5 @@ doskey mv=move $*
 doskey pwd=echo %CD%
 doskey rm=del $*
 
-set CVS_RSH=%PRDS%\Build\PLINK.EXE
+set CVS_RSH=%PUTTY_BIN%\PLINK.EXE
 
