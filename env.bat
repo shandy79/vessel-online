@@ -55,6 +55,7 @@ doskey ls=dir $*
 doskey mv=move $*
 doskey pwd=echo %CD%
 doskey rm=del $*
+doskey touch=echo. $G $*
 
 doskey grails231=%SOFTWARE_LIB%\grails-2.3.1\bin\grails $*
 doskey grails234=%SOFTWARE_LIB%\grails-2.3.4\bin\grails $*
