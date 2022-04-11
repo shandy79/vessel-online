@@ -2,4 +2,4 @@
 
 ## Locations
 
-* [The Arcade](pages/the_arcade)
+* [The Arcade](https://shandy79.github.io/vessel-online/pages/the_arcade)
