@@ -1,15 +1,15 @@
 ---
-base-url: https://TechnoPagan87109.github.io/Haven
+dir-url: {{ site.haven-url }}/locations
 ---
 
 <span style="font-size:smaller;">
-  [Haven]({{ page.base-url }}/) -> [Locations]({{ page.base-url }}/locations/) -> The Shopps
+  [Haven]({{ site.haven-url }}/) -> [Locations]({{ page.dir-url }}/) -> The Shopps
 </span>
 
 # Locations
 
 ## The Shopps
 
-* [The Arcade]({{ page.base-url }}/locations/shopps/the_arcade)
-* [The Stumbalon Inn]({{ page.base-url }}/locations/shopps/the_stumbalon_inn)
-* [Temple of All Gods]({{ page.base-url }}/locations/shopps/temple_of_all_gods)
+* [The Arcade]({{ page.dir-url }}/shopps/the_arcade)
+* [The Stumbalon Inn]({{ page.dir-url }}/shopps/the_stumbalon_inn)
+* [Temple of All Gods]({{ page.dir-url }}/shopps/temple_of_all_gods)
