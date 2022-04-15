@@ -1,6 +1,8 @@
 * site.url = {{ site.url }}
 * page.url = {{ page.url }}
+* page.dir = {{ page.dir }}
 * page.path = {{ page.path }}
+* page.name = {{ page.name }}
 
 # The Stumbalon Inn
 

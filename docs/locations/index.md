@@ -1,15 +1,15 @@
 ---
-dir-url: {{ site.haven-url }}/locations
+shopps-dir: {{ page.dir }}/shopps
 ---
 
 <span style="font-size:smaller;">
-  [Haven]({{ site.haven-url }}/) -> [Locations]({{ page.dir-url }}/) -> The Shopps
+  [Haven]({{ site.url }}/) -> [Locations]({{ page.dir }}/)
 </span>
 
 # Locations
 
 ## The Shopps
 
-* [The Arcade]({{ page.dir-url }}/shopps/the_arcade)
-* [The Stumbalon Inn]({{ page.dir-url }}/shopps/the_stumbalon_inn)
-* [Temple of All Gods]({{ page.dir-url }}/shopps/temple_of_all_gods)
+* [The Arcade]({{ page.shopps-dir }}/the_arcade)
+* [The Stumbalon Inn]({{ page.shopps-dir }}/the_stumbalon_inn)
+* [Temple of All Gods]({{ page.shopps-dir }}/temple_of_all_gods)
