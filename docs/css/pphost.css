@@ -33,7 +33,6 @@ nav {
 }
 
 h1 {
-  background-color: red;
   color: white;
   font-family: 'Pirata One', cursive;
   font-size: 40pt;
@@ -103,6 +102,10 @@ img { border-width: 0px; }
   h2 { font-size: 10pt; }
   h3 { font-size: 9pt; }
   td { font-size: 9pt; }
+}
+
+header h1 {
+  background-color: red;
 }
 
 header td {
