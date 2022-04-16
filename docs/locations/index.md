@@ -1,6 +1,6 @@
 ---
 dir-url: {{ site.base-url }}{{ page.dir }}
-shopps-url: {{ site.base-url }}{{ page.dir }}shopps
+#shopps-url: {{ site.base-url }}{{ page.dir }}shopps
 test-var: some_test_value
 ---
 
