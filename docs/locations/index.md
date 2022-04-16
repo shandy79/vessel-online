@@ -1,6 +1,7 @@
 ---
 dir-url: {{ site.base-url }}{{ page.dir }}
 shopps-url: {{ site.base-url }}{{ page.dir }}shopps
+test-var: some_test_value
 ---
 
 <span style="font-size:smaller;">
@@ -14,3 +15,5 @@ shopps-url: {{ site.base-url }}{{ page.dir }}shopps
 * [The Arcade]({{ page.shopps-url }}/the_arcade)
 * [The Stumbalon Inn]({{ page.shopps-url }}/the_stumbalon_inn)
 * [Temple of All Gods]({{ page.shopps-url }}/temple_of_all_gods)
+* {{ page.shopps-url }}
+* {{ page.test-var }}
