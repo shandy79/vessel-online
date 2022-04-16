@@ -1,10 +1,10 @@
 ---
 dir-url: {{ site.base-url }}{{ page.dir }}
-shopps-url: {{ page.dir-url }}shopps
+shopps-url: {{ site.base-url }}{{ page.dir }}shopps
 ---
 
 <span style="font-size:smaller;">
-  [Haven]({{ site.base-url }}/) -> [Locations]({{ site.base-url }}{{ page.dir }})
+  [Haven]({{ site.base-url }}/) -> [Locations]({{ page.dir-url }})
 </span>
 
 # Locations
