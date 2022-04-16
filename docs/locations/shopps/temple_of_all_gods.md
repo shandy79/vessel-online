@@ -1,4 +1,6 @@
-# Temple of All Gods
+---
+title: Temple of All Gods
+---
 
 Dignified and staid, tranquil, welcoming.  An understated edifice, larger than any other in the Shopps, stands before you.  Crafted of roughly hewn limestone blocks, the off-white colour seems appropriate for a city that is largely well-intentioned and certainly full of hope, but yet to realize its full potential.  Above the massive doors, etched into the stone, is the phrase "All are welcome" in the common script.  You know this to be the Temple of All Gods from the simple sign to the right of the doors and you do indeed feel welcome here.  Still under construction, the Temple's sturdy square base gives rise to a tower, currently three stories tall, with a crenellated top.  Whereas normally these battlements would serve to provide cover to archers and other defenders, at the Temple they are merely a practical architectural feature, a simple base upon which to construct the next story as more and more gods and goddesses come to be represented amongst the believers of Haven.
 

@@ -1,10 +1,12 @@
+---
+title: The Stumbalon Inn
+---
+
 * site.url = {{ site.url }}
 * page.url = {{ page.url }}
 * page.dir = {{ page.dir }}
 * page.path = {{ page.path }}
 * page.name = {{ page.name }}
-
-# The Stumbalon Inn
 
 A comforting glow emanates from the several windows lining the first floor of the building as you approach.  As you get closer, you hear a gorgeous, silky voice gliding out into the streets like smoke from a pipe, swirling and ethereal.  Finally, the smells of fresh baked bread, seasoned meats, and savoury stews reach your nose.  Above you, an illuminated, wooden sign modestly declares this building to be "The Stumbalon Inn."  Weary traveller, search no further, your place of respite is found.
 
