@@ -2,6 +2,10 @@
 title: The Arcade
 ---
 
+<span style="font-size:smaller;">
+  [Haven]({{ site.base-url }}/) -> [Locations](../index) -> Shopps
+</span>
+
 "Come one, come all, test your skill and try your luck with the wonders of the Arcade!"  A large, dark, and extremely furry tabaxi, dressed in bright colours and wearing a magnificent hat, calls out from the entrance to the Arcade.  He waves his arm with a great flourish, gesturing to the cacophony of sound and motion sprawling behind him.  "We have something for everyone, from physical challenges of strength and balance to tests of wit and wisdom!  Young and old, any gender or race, we welcome you all to partake in the wonders of the Arcade!  Whether your stay is for half an hour or half a year, your joy is guaranteed!"  What begins as an open square draped with airy silks of various colours transitions to an enclosed hall, where all manner of music and mechanical noises ring out.  You can see numerous games and puzzles of a combined magical and mechanical nature, created by Kipper, the gnome artificer who, along with the tabaxi Moxie Rockets, is one of the co-founders.  Illusory frogs race across animated lily pads in one booth, while in another, youngsters attempt to toss balls through dancing, laughing hoops while their parents cheer them on.
 
 Throughout, peals of laughter and groans of defeat can be heard amongst the patrons of the Arcade.  Venturing further into the hall, a bizarre mechanical man attempts to guess the age and weight of the patrons.  Kipper is often seen pondering this particular booth and making adjustments.  Anyone that can ask a sufficiently insightful question might attract his attention and be able to strike up a good conversation, but Kipper is not easily distracted.  The most challenging puzzles of the Arcade lie in the hall as well, with some modest rewards awaiting those who are clever enough to solve them.
