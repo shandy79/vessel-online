@@ -22,11 +22,11 @@ Following the apprentice through the back of the shop and up to the second floor
 
 (*x* are those the PCs might run into here)
 
-| [x] Genocide   | [&nbsp;] Sexual Assault         | [&nbsp;] Police Oppression |
-| [&nbsp;] Racism     | [&nbsp;] Religious Intolerance  | [&nbsp;] Homelessness      |
+| [x] Genocide   | [&nbsp; ] Sexual Assault         | [&nbsp; ] Police Oppression |
+| [&nbsp; ] Racism     | [&nbsp; ] Religious Intolerance  | [&nbsp; ] Homelessness      |
 | [x] Sexism     | [x] Pregnancy and Abortion | [x] Natural Disasters |
 | [x] Homophobia | [x]Government Corruption   |                       |
-
+  
 ### Romance
 
 |                                      | References | Romantic Gestures | PDAs* |
@@ -36,13 +36,13 @@ Following the apprentice through the back of the shop and up to the second floor
 | Humanoid and Sentient Non-Humanoid   | [x]        | [x]               | [x]   |
                                               
 \* - Public Displays of Affection
-
+  
 ### Other Activities
 
-| [x] Gambling | [x] Drinking Alcohol | [&nbsp;] Use of Illicit Drugs | [x] Casual Sex |
-
+| [x] Gambling | [x] Drinking Alcohol | [&nbsp; ] Use of Illicit Drugs | [x] Casual Sex |
+  
 ### Triggers
 
-| [&nbsp;] Insects | [&nbsp;] Harm to Children | [&nbsp;] Cancer/Disease | [&nbsp;] Filth  |
-| [&nbsp;] Blood   | [&nbsp;] Harm to Animals  | [&nbsp;] Terrorism      | [&nbsp;] Famine |
-| [&nbsp;] Gore    | [&nbsp;] Torture          | [&nbsp;] Cannibalism    |            |
+| [&nbsp; ] Insects | [&nbsp; ] Harm to Children | [&nbsp; ] Cancer/Disease | [&nbsp; ] Filth  |
+| [&nbsp; ] Blood   | [&nbsp; ] Harm to Animals  | [&nbsp; ] Terrorism      | [&nbsp; ] Famine |
+| [&nbsp; ] Gore    | [&nbsp; ] Torture          | [&nbsp; ] Cannibalism    |            |
