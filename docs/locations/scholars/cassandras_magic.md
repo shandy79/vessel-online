@@ -20,12 +20,12 @@ Following the apprentice through the back of the shop and up to the second floor
 
 ### Real Life Issues Used as Fantasy
 
-(X are those the PCs might run into here)
+(*x* are those the PCs might run into here)
 
-| [X] Genocide   | [ ] Sexual Assault         | [ ] Police Oppression |
-| [ ] Racism     | [ ] Religious Intolerance  | [ ] Homelessness      |
-| [x] Sexism     | [X] Pregnancy and Abortion | [X] Natural Disasters |
-| [x] Homophobia | [X]Government Corruption   |                       |
+| [x] Genocide   | [&nbsp;] Sexual Assault         | [&nbsp;] Police Oppression |
+| [&nbsp;] Racism     | [&nbsp;] Religious Intolerance  | [&nbsp;] Homelessness      |
+| [x] Sexism     | [x] Pregnancy and Abortion | [x] Natural Disasters |
+| [x] Homophobia | [x]Government Corruption   |                       |
 
 ### Romance
 
@@ -35,14 +35,14 @@ Following the apprentice through the back of the shop and up to the second floor
 | Same (or very similar) Genders       | [x]        | [x]               | [x]   |
 | Humanoid and Sentient Non-Humanoid   | [x]        | [x]               | [x]   |
                                               
-*Public Displays of Affection
+\* - Public Displays of Affection
 
 ### Other Activities
 
-[x] Gambling   [x] Drinking alcohol   [ ] Use of illicit Drugs   [x] Casual sex
+| [x] Gambling | [x] Drinking Alcohol | [&nbsp;] Use of Illicit Drugs | [x] Casual Sex |
 
 ### Triggers
 
-[ ] Insects     [ ] Harm to Children      [ ] Cancer/Disease     [ ] Filth
-[ ] Blood       [ ] Harm to Animals       [ ] Terrorism         [ ] Famine
-[ ] Gore        [ ] Torture               [ ] Cannibalism
+| [&nbsp;] Insects | [&nbsp;] Harm to Children | [&nbsp;] Cancer/Disease | [&nbsp;] Filth  |
+| [&nbsp;] Blood   | [&nbsp;] Harm to Animals  | [&nbsp;] Terrorism      | [&nbsp;] Famine |
+| [&nbsp;] Gore    | [&nbsp;] Torture          | [&nbsp;] Cannibalism    |            |
