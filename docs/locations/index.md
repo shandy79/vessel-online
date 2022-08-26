@@ -8,7 +8,7 @@ title: Locations
 
 ## The Scholars
 
-* The Copper Dragon Tavern
+* [The Copper Dragon Tavern](scholars/the_copper_dragon_tavern.md)
 * [Cassandra's Magic](scholars/cassandras_magic)
 * Drusilla's Forest
 
