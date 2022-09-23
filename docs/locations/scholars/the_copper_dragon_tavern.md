@@ -6,7 +6,7 @@ title: The Copper Dragon Tavern
   [Haven]({{ site.base-url }}/) -> [Locations](../index) -> Scholars
 </span>
 
-This is a popular hangout for adventurers.  The proprietors are well-connected and often know of adventuring groups forming and patrons hiring as well as most of the latest rumors floating around Haven.  In a back room there are tables for playing cards and dice, along with two darts boards.  There is a stage where local and traveling bards perform for tips.  There are modest, comfortable, and one wealthy lodging available.  The tavern is run by Theran and Zizza Amakiir and their four employees, though lately the employees are doing most of the work while Theran and Zizza care for their baby daughter.  
+This is a popular hangout for adventurers.  The proprietors are well-connected and often know of adventuring groups forming and patrons hiring as well as most of the latest rumors floating around Haven.  In a back room there are tables for playing cards and dice, along with two darts boards.  There is a stage where local and traveling bards perform for tips.  There are modest, comfortable, and one wealthy lodging available.  The tavern is run by Theran and Zizza Amakiir and their four employees, though lately the employees are doing most of the work while Theran and Zizza care for their baby daughter.
 
 ## Services
 
