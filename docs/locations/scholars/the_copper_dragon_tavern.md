@@ -6,7 +6,7 @@ title: The Copper Dragon Tavern
   [Haven]({{ site.base-url }}/) -> [Locations](../index) -> Scholars
 </span>
 
-This is a popular hangout for adventurers.  The proprietors are well-connected and often know of adventuring groups forming and patrons hiring as well as most of the latest rumors floating around Haven.  In a back room there are tables for playing cards and dice, along with two darts boards.  There is a stage where local and traveling bards perform for tips.  There are modest, comfortable, and one wealthy lodging available.  The tavern is run by Theran and Zizza Amakiir and their four employees, though lately the employees are doing most of the work while Theran and Zizza care for their baby daughter.
+This is a popular hangout for adventurers.  The proprietors are well-connected and often know of adventuring groups forming and patrons hiring as well as most of the latest rumors floating around Haven.  In a back room there are tables for playing cards and dice, along with dart boards.  There is a stage where local and traveling bards perform for tips.  Modest, comfortable, and wealthy lodging options are available.  The tavern is run by Theran and Zizza Amakiir and their four employees, though lately the employees are doing most of the work while Theran and Zizza care for their baby daughter.
 
 ## Services
 
@@ -38,21 +38,21 @@ Theran, a half-elf, was a fighter, originally from Yartar, a city on west coast 
 
 ### Zizza Amakiir
 
-Zizza, a human, grew up on the streets of Waterdeep an orphan, where she learned to steal, pick pockets, then locks, and became an adventurer this way.  She was in the market when the gnomes and Danarians first came and was one of the first to learn about Haven.  She went back with them, then found work at the Copper Dragon, which is where she and Theran first met.  She says she fell in love with Theranat first sight and that Theran just needed a little time to get on board.  Zizza says the next time they go to Cassandra's Magic for the purpose of having another child, she wants to be the father.  Theran isn't sure if this is a promise or a threat.
+Zizza, a human, grew up on the streets of Waterdeep an orphan, where she learned to steal, pick pockets, then locks, and became an adventurer this way.  She was in the market when the gnomes and Danarians first came and was one of the first to learn about Haven.  She went back with them, then found work at the Copper Dragon, which is where she and Theran first met.  She says she fell in love with Theranat first sight and that Theran just needed a little time to get on board.  Zizza says the next time they go to [Cassandra's Magic](./cassandras_magic) for the purpose of having another child, she wants to be the father.  Theran isn't sure if this is a promise or a threat.
 
 ## Downtime Activities
 
 ### Carousing
 
-The Copper Dragon is a good place to meet people, make new friends and acquaintances 
+The Copper Dragon is a good place to meet people and to make new friends and acquaintances.
 
 ### Gambling
 
-While there are no house run games at the Copper Dragon tavern, there are almost always games of chance being played and many of the tavern’s regulars will bet on just about anything. Typically there are card and dice games being played at the back tables. There are three dart boards and bets are placed by players and spectators alike. There are private rooms in the back that are often rented for high stakes games.
+While there are no house run games at the Copper Dragon tavern, there are almost always games of chance being played and many of the tavern’s regulars will bet on just about anything.  Typically there are card and dice games being played at the back tables.  There are three dart boards and bets are placed by players and spectators alike.  There are also private rooms in the back that are often rented for high stakes games.
 
 ### Drinking
 
-While they discourage overindulgence, many people come to the Copper Dragon to drink. The tavern has a wide selection of alcoholic beverages and sharing food and drink is a time honored way to make new friends.
+While they discourage overindulgence, many people come to the Copper Dragon to drink.  The tavern has a wide selection of alcoholic beverages and sharing food and drink is a time honored way to make new friends.
 
 ## Consent for Games
 

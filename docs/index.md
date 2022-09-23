@@ -4,4 +4,5 @@ title: Welcome to Haven!
 
 ## Table of Contents
 
-* [Locations](locations/index)
+* [History of Haven](general/history_of_haven)
+* [Locations in Haven](locations/index)
