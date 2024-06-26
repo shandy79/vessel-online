@@ -54,6 +54,9 @@ While there are no house run games at the Copper Dragon tavern, there are almost
 
 While they discourage overindulgence, many people come to the Copper Dragon to drink.  The tavern has a wide selection of alcoholic beverages and sharing food and drink is a time honored way to make new friends.
 
+<details>
+<summary>Consent for Games (Legacy)</summary>
+
 ## Consent for Games
 
 (**x** indicates an item that PCs might encounter in this location)
@@ -84,3 +87,5 @@ While they discourage overindulgence, many people come to the Copper Dragon to d
 | [&nbsp; ] Insects | [&nbsp; ] Harm to Children | [&nbsp; ] Cancer/Disease | [&nbsp; ] Filth  |
 | [&nbsp; ] Blood   | [&nbsp; ] Harm to Animals  | [&nbsp; ] Terrorism      | [&nbsp; ] Famine |
 | [&nbsp; ] Gore    | [&nbsp; ] Torture          | [&nbsp; ] Cannibalism    |                  |
+
+</details>

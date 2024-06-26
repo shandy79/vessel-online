@@ -40,6 +40,9 @@ Adventurers may study a wide array of topics under Drusilla's supervision.
 
 Refer to the list above, under Language Tutoring.
 
+<details>
+<summary>Consent for Games (Legacy)</summary>
+
 ## Consent for Games
 
 (**x** indicates an item that PCs might encounter in this location)
@@ -72,3 +75,5 @@ Refer to the list above, under Language Tutoring.
 | [&nbsp; ] Insects | [&nbsp; ] Harm to Children | [&nbsp; ] Cancer/Disease | [&nbsp; ] Filth  |
 | [&nbsp; ] Blood   | [&nbsp; ] Harm to Animals  | [&nbsp; ] Terrorism      | [&nbsp; ] Famine |
 | [&nbsp; ] Gore    | [&nbsp; ] Torture          | [&nbsp; ] Cannibalism    |                  |
+
+</details>
