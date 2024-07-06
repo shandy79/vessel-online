@@ -8,7 +8,7 @@ title: Locations
 
 <img src="https://i.imgur.com/Ws9aUIZ.png?1" alt="Map of Haven" style="float:right;height:640px;padding:4px 12px;" />
 
-<div style="float:left;">
+<div style="float:left;" markdown="1">
 
 ## The Scholars
 
