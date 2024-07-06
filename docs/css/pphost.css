@@ -12,6 +12,7 @@ article, aside, footer, header, hgroup, menu, nav, section {
 
 #main {
   border: white 1px solid;
+  overflow: auto;
   padding: 8px;
 }
 
