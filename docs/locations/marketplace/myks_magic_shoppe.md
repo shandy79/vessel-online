@@ -13,7 +13,7 @@ From the outside, this shop appears to be a simple, multi-coloured, burlap tent,
 ### Potions
 
 | Type | Price (gp) |
-| ---- | ---------- |
+| :--- | ---------- |
 | [Healing](https://www.dndbeyond.com/equipment/71-potion-of-healing) | 55 |
 | [Climbing](https://www.dndbeyond.com/magic-items/4702-potion-of-climbing) | 83 |
 | [Animal Friendship](https://www.dndbeyond.com/magic-items/4700-potion-of-animal-friendship) | 110 |
@@ -24,7 +24,7 @@ From the outside, this shop appears to be a simple, multi-coloured, burlap tent,
 ### Scrolls
 
 | Level | Price (gp) |
-| ----- | ---------- |
+| :---- | ---------- |
 | Cantrip | 28 |
 | 1st | 83 |
 | 2nd | 165 |
@@ -33,7 +33,7 @@ From the outside, this shop appears to be a simple, multi-coloured, burlap tent,
 ### Ammunition
 
 | Type | Price (gp) |
-| ---- | ---------- |
+| :--- | ---------- |
 | Sling Bullets +1 (x20) | 220 |
 | Arrows +1 (x20) | 220 |
 | Crossbow Bolts +1 (x20) | 220 |
@@ -42,7 +42,7 @@ From the outside, this shop appears to be a simple, multi-coloured, burlap tent,
 
 ### Mykazhin Longreen
 
-Mykazhin Longreen, or Myk for short, is very intelligent, wise and powerful.  Along with Cassandra and Drusilla, he is one of the most respected mages in all of Haven.  Myk is willing to give advice when it's asked for and people rarely regret taking it.  While not officially part of the Exploration House, they keep each other in the loop.  Myk is a human, but speaks Elvish, Dwarvish, Draconic, Sylvan, Celestial, Infernal, and Undercommon, in addition to Common.
+Mykazhin Longreen, or Myk for short, is very intelligent, wise, and powerful.  Along with Cassandra and Drusilla, he is one of the most respected mages in all of Haven.  Myk is willing to give advice when it's asked for and people rarely regret taking it.  While not officially part of the Exploration House, they keep each other in the loop.  Myk is a human, but speaks Elvish, Dwarvish, Draconic, Sylvan, Celestial, Infernal, and Undercommon, in addition to Common.
 
 ### Chormongondr
 

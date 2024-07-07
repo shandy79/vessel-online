@@ -7,7 +7,7 @@ title: Locations
 </span>
 
 <figure style="float:right;">
-  <img src="https://i.imgur.com/Ws9aUIZ.png?1" style="height:640px; padding:4px 12px;" alt="Map of Haven" />
+  <img src="https://i.imgur.com/Ws9aUIZ.png?1" style="height:600px; padding:4px 12px;" alt="Map of Haven" />
   <figcaption style="font-size:8pt; text-align:center;">Source:
     <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/110004-worlds-of-pphost-haven?comment=1">https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/110004-worlds-of-pphost-haven?comment=1</a>
   </figcaption>
@@ -15,7 +15,7 @@ title: Locations
 
 <div style="float:left;" markdown="1">
 
-## The Marketplace - City Centre
+## The Marketplace
 
 * [Myk's Magic Shoppe](marketplace/myks_magic_shoppe)
 * Thia's Apothecary
