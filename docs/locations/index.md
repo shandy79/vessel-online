@@ -6,14 +6,14 @@ title: Locations
   [Haven]({{ site.base-url }}/) -> Locations
 </span>
 
-<figure style="float:right;">
-  <img src="https://i.imgur.com/Ws9aUIZ.png?1" style="height:600px; padding:4px 12px;" alt="Map of Haven" />
+<figure style="float:right; margin:8px;">
+  <img src="https://i.imgur.com/Ws9aUIZ.png?1" style="width:400px;" alt="Map of Haven" />
   <figcaption style="font-size:8pt; text-align:center;">Source:
-    <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/110004-worlds-of-pphost-haven?comment=1">https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/110004-worlds-of-pphost-haven?comment=1</a>
+    <a href="https://www.dndbeyond.com/forums/d-d-beyond-general/play-by-post/110004-worlds-of-pphost-haven?comment=1">D&D Beyond: Forums/General/Play-by-Post/110004-worlds-of-pphost-haven</a>
   </figcaption>
 </figure>
 
-<div style="float:left;" markdown="1">
+<div style="clear:none;" markdown="1">
 
 ## The Marketplace
 
