@@ -29,7 +29,8 @@ The cluster of buildings at the north of the interior of the wall is known as Th
 
 * Town Hall
   * A brick and timber building adjacent to the Guardhouse, it houses the Mayor's Office and the Courtroom, and is used for City Council meetings.
-* The Exploration House
+* [The Exploration House](officials/exploration_house)
+  * Charged with the planning and development of Haven, the Exploration House often hires adventurers to explore specific areas and investigate strange phenomenon.  They also buy maps, adventure journals, drawings, and artifacts brought back by adventurers.
 * The Guardhouse
   * Adjacent to the city wall, a large stone building of dwarven design with a tower that houses various facilities for the Town Guards.
 * Irene's Lodging Facility
@@ -71,5 +72,9 @@ Between The Shopps and The Officials is the district called The Shadows, which i
 * Greasy Weasel Tavern
 * Temple of Tymora
 * Temple of Lliira
+
+## Outer City
+
+A newer, less refined area of the city sits outside the southern city wall.  As Haven has outgrown its original footprint, residents have started constructing homes and storefronts, varying widely in materials and permanence.  The city officials have tried to assist in bringing a semblance of order to the Outer City, but thus far, the Outer City has resisted.  This isn't to say that chaos reigns or that it's the city's seedy underbelly, but if you're looking for that sort of thing, you might find it here.  Most folks are still helpful, confused about their rapid, unplanned migration to Haven, and just figuring things out.  Just like you!
 
 </div>
