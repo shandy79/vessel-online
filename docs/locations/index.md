@@ -15,7 +15,16 @@ title: Locations
 
 <div style="clear:none;" markdown="1">
 
-## The Marketplace
+* [The Marketplace](#marketplace)
+* The Officials - 1
+* The Burrows - 2
+* The Crafts - 3
+* The Scholars - 4
+* The Shopps - 5
+* The Shadows - 6
+* Outer City
+
+## <a name="marketplace"></a>The Marketplace
 
 The Marketplace has a wide and ever changing variety of colorful tents and stands acting as outlets for the more permanent and better stocked shops around Haven, as well as for the farmers to sell their wares.  At the center of the Marketplace is the Town Well, watched over by a statue of [Chauntea](https://forgottenrealms.fandom.com/wiki/Chauntea), Toril's goddess of agriculture.  At the south end of the Marketplace is the Bulletin Board.  Residents post notices for everything from "Lost Cat" to "Room for Rent" to the obligatory "Adventurers Wanted".
 
