@@ -6,7 +6,7 @@ title: Exploration House
   [Haven]({{ site.base-url }}/) -> [Locations](../index) -> Officials
 </span>
 
-Adjacent to the Guardhouse is the Exploration House.  Run mostly by the Gnomes, the Exploration House is charged with the long-term exploration and development of Haven, including the eventual issuing of land grants.  The Exploration House is often the first and last stop for adventurers as the House will regularly pay to have particular areas explored and for well drawn maps, detailed travel journals, and artifacts.
+Adjacent to the Guardhouse is the Exploration House.  Run mostly by the gnomes, the Exploration House is charged with the long-term exploration and development of Haven, including the eventual issuing of land grants.  The Exploration House is often the first and last stop for adventurers as the House will regularly pay to have particular areas explored and for well drawn maps, detailed travel journals, and artifacts.
 
 ## Staff
 
