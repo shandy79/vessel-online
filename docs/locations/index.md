@@ -86,4 +86,6 @@ Between The Shopps and The Officials is the district called The Shadows, which i
 
 A newer, less refined area of the city sits outside the southern city wall.  As Haven has outgrown its original footprint, residents have started constructing homes and storefronts, varying widely in materials and permanence.  The city officials have tried to assist in bringing a semblance of order to the Outer City, but thus far, the Outer City has resisted.  This isn't to say that chaos reigns or that it's the city's seedy underbelly, but if you're looking for that sort of thing, you might find it here.  Most folks are still helpful, confused about their rapid, unplanned migration to Haven, and just figuring things out.  Just like you!
 
+* [More information ...](outer/index)
+
 </div>

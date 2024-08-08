@@ -30,6 +30,12 @@ Drusilla, a wood elf, is a book dealer and a Danarian in the sense that she live
 
 Drusilla lives alone in a small apartment above her shop and has been known to be quite hostile and even violent to other wood elves.
 
+### Yalerion Highscroll
+
+"Yalerion is a 26-year-old human acolyte with an approachable demeanor and a relaxed posture.  A scholar from Waterdeep, they have a never-ending thirst for knowledge, especially information concerning the history of Toril."  After reading all the books contained within the Font of Knowledge, a Waterdavian temple to Oghma, god of knowledge, Yalerion ascended to the chapel therein and commenced to pray.  He next awoke in Haven, cursed to a demiplane of limited libraries.  Fortunately for him, Drusilla was willing to take him on as a tutor and librarian, and Yalerion is hastily making his way through her collection as well.
+
+Most recently, Yalerion outbid the hapless [Bill](./cassandras_magic#william-amble) for an interesting tome, *Mazfroth's Mighty Digressions*.  Unfortunately, this one turned out to be some kind of monster in disguise!  Yalerion survived unscathed, thanks to Drusilla's intervention.
+
 ## Downtime Activities
 
 ### Research Options

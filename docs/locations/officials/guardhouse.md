@@ -18,10 +18,14 @@ Captain Kolar, a mountain dwarf, leads the Town Guard for the settlement of Have
 
 Lieutenant Vagyth is Kolar's second in command.  He prides himself on being reliable and true to his word.  A good deal over six foot tall, the lieutenant is generally cordial, but does not look like someone to be trifled with.
 
-### <a name="lotham"></a>Lieutenant Lotham Anaxapurna
+### Lieutenant Lotham Anaxapurna
 
 Lotham originally hails from the Wyrmdoom Crag in the Spine of the World, home of the friendly Thuunlakalaga tribe of goliaths in Faerun.  After [Horatio Thorndown](./town_hall#mayor-horatio-thorndown), currently mayor of Haven, aided the tribe in driving off a marauding white dragon, Lotham felt honourbound to accompany Horatio and repay the debt he believed his tribe owed Horatio.  While departing his tribe nearly broke him, Horatio proved to be worthy of companionship as a man of tremendous courage and honour.  Over the years, they embarked on numerous adventures throughout Faerun, protecting those in need.  When Horatio retired to Limerock, he asked Lotham to join him and help to train the next generation of heroes.  Lotham reluctantly agreed, wishing to return to his tribe.  However, he grew very fond of Limerock, its quirky residents and other expert adventurers, and the young heroes that he guides.
 
 Lotham, Horatio, and a strange githzerai monk named Bojovnik ended up in Haven after chasing a mischievous bariaur wanderer in the Snakewood and getting pulled into a portal opened by their quarry.  The whereabouts of the bariaur are currently unknown.
 
 Lotham has a slightly nasal, higher-pitched voice than one might expect from a Goliath due to persistent allergies that occur while he is not in the lofty mountaintops in which his people typically reside.  However, few dare to mock him thanks to his imposing stature and mighty weapons.  Mayor Thorndown relies heavily on Lotham's judgement, occasionally to the irritation of Captain Kolar.
+
+### Sergeant Robert Clintock
+
+Frequently found at the northeast gate, Sergeant Clintock, or Bobby as he is usually called, is a down home, country sort of fellow.  He does his job, sure, but he doesn't mind a lengthy chat before dispensing with his duties.  It's unclear exactly from which world Bobby hails, but it's imagined that it is just as rough and tumble as Haven is.  That would explain why this particular human is such a good fit in what feels like a growing frontier town.

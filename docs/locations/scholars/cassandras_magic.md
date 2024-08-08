@@ -16,6 +16,14 @@ Cassandra has apprentices so that she can devote her full attention to Haven's p
 
 Following the apprentice through the back of the shop and up to the second floor, you can hear the noises emanating from the Device above.  Ceiling beams groan, the walls vibrate, and occasional whistles pierce the air.  It's all a bit unsettling, but the individual standing before you doesn't seem to be bothered in the slightest.  Cassandra looks you over critically, shaking her head and sighing softly to herself as she paces from one end of your lineup to the other.  While she certainly has the appearance of a scholar, with ink-stained finger tips, disheveled hair, and stacks of books and notes scattered about what seems to be her office, Cassandra is also wearing the garb of an engineer of sorts.  She has a leather belt with several pouches filled with a wide variety of tools, notebooks, rulers, and things you don't recognize.  Her manner is not frantic, but all of her movements seem to come at an abnormally quick pace.  As with all things, though, Cassandra does come to an eventual stop.
 
+### William Amble
+
+Mr. Amble, or Bill, is currently Cassandra's longest serving apprentice after the sudden and untimely demise of Matreous.  Despite his standout longevity amongst Cassandra's long line of unfortunate employees, she does not look upon him terribly favorably.  For Bill is thorougly average in all apprentice aspects, though he does not lack in ambition.  He simply lacks the abilities with which to achieve his goals.  Aim for the middle and you'll never miss, Bill!
+
+### Matreous
+
+Deceased.  Matreous was the more apt of Cassandra's pupils, but his own curiosity and lack of wisdom did him in during *The Joy of Extradimensional Spaces*.  Nearly obsessed with unraveling the secrets of that tome, he found himself drawn into Fistandia's mansion.  Little did he know that the imp figurine he pilfered from the powerful mage's collection would be his undoing.  While Asimi, Buck, and mmudd avenged his death by slaying the imp, that did nothing to undo his bloody demise.  I guess there's an opening for a new apprentice!
+
 <details>
 <summary>Consent for Games (Legacy)</summary>
 

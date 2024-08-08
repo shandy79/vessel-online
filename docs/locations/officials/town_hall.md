@@ -31,6 +31,10 @@ Unfortunately, Horatio and Lotham's time in Limerock was cut short after agreein
 
 The mayor cuts a dashing figure, with a jet black mane and beard streaked with silver.  Horatio was fortunate to have entered the portal to Haven astride a valiant steed, Sunrise.  There are few horses in Haven, so Horatio's skill as a mounted combatant adds to his aura of prestige.  In addition to being fearless, Horatio has developed into an inspring leader who is always willing to join the fray.  He is particularly proud of the homegrown heroes that Haven now develops and will venture out to aid them when the situation looks dire.
 
-### Lior Goldleaf
+### Liora Goldleaf
 
-Lior is a surprisingly elderly elf who serves as the primary registrar for the Town Hall.  She handles any service listed above directly or will refer petitioners to the relevant authorities.  Wispy in form and attention, Lior is prone to drifting into her expansive memory and may trail off mid-sentence while speaking with townsfolk.  However, she has thus far been infallible in fulfilling her duties.  If she says your form will be forwarded to the Exploration House for coordinated registration as an adventurer, you can rest assured that it will transpire.
+Liora is a surprisingly elderly elf who serves as the primary registrar for the Town Hall.  She handles any service listed above directly or will refer petitioners to the relevant authorities.  Wispy in form and attention, Liora is prone to drifting into her expansive memory and may trail off mid-sentence while speaking with townsfolk.  However, she has thus far been infallible in fulfilling her duties.  If she says your form will be forwarded to the Exploration House for coordinated registration as an adventurer, you can rest assured that exactly that will transpire.
+
+### Stovall Excalius
+
+A representative of the diversity of beings that have been pulled to Haven, Stovall is a not quite surly, not quite friendly centaur that found his career path in Town Hall.  He is an odd fit behind the registrar's desk, both physically and naturally.  Nearly as effective and far less wordy than Liora, Stovall often works the morning shift while Liora wanders the local forests.  When she returns, Stovall heads off to do his own strolling about in the wilderness.  The two of them are likely sources of information about peculiar things to be found out in those parts.
