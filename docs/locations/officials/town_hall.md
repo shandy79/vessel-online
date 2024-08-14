@@ -35,6 +35,8 @@ The mayor cuts a dashing figure, with a jet black mane and beard streaked with s
 
 Liora is a surprisingly elderly elf who serves as the primary registrar for the Town Hall.  She handles any service listed above directly or will refer petitioners to the relevant authorities.  Wispy in form and attention, Liora is prone to drifting into her expansive memory and may trail off mid-sentence while speaking with townsfolk.  However, she has thus far been infallible in fulfilling her duties.  If she says your form will be forwarded to the Exploration House for coordinated registration as an adventurer, you can rest assured that exactly that will transpire.
 
-### Stovall Excalius
+### Marley Excalius
 
-A representative of the diversity of beings that have been pulled to Haven, Stovall is a not quite surly, not quite friendly centaur that found his career path in Town Hall.  He is an odd fit behind the registrar's desk, both physically and naturally.  Nearly as effective and far less wordy than Liora, Stovall often works the morning shift while Liora wanders the local forests.  When she returns, Stovall heads off to do his own strolling about in the wilderness.  The two of them are likely sources of information about peculiar things to be found out in those parts.
+A representative of the diversity of beings that have been pulled to Haven, Marley is a not quite surly, not quite friendly centaur that found his career path in Town Hall.  He is an odd fit behind the registrar's desk, both physically and in terms of where one might expect to find a centaur.  Mayor Thorndown is quite fond of Marley, as he reminds him of the bariaur that seemingly lured the Mayor and Lieutenant Anaxapurna to Haven.
+
+Nearly as effective and far less wordy than Liora, Marley often works the morning shift while Liora wanders the local forests.  When she returns, Marley heads off to do his own strolling about in the wilderness.  The two of them are likely sources of information about peculiar things to be found out in those parts.
