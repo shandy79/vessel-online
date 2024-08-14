@@ -26,11 +26,12 @@ title: Locations
 
 ## The Marketplace
 
-The Marketplace has a wide and ever changing variety of colorful tents and stands acting as outlets for the more permanent and better stocked shops around Haven, as well as for the farmers to sell their wares.  At the center of the Marketplace is the Town Well, watched over by a statue of [Chauntea](https://forgottenrealms.fandom.com/wiki/Chauntea), Toril's goddess of agriculture.  At the south end of the Marketplace is the Bulletin Board.  Residents post notices for everything from "Lost Cat" to "Room for Rent" to the obligatory "Adventurers Wanted".
+The Marketplace has a wide and ever changing variety of colorful tents and stands, some acting as outlets for the more permanent and better stocked shops around Haven.  Others serve as stands for the farmers and smaller vendors to sell their wares.  At the center of the Marketplace is the Town Well, watched over by a statue of [Chauntea](https://forgottenrealms.fandom.com/wiki/Chauntea), Toril's goddess of agriculture.  At the south end of the Marketplace is the Bulletin Board.  Residents post notices for everything from "Lost Cat" to "Room for Rent" to the obligatory "Adventurers Wanted".
 
 * [Myk's Magic Shoppe](marketplace/myks_magic_shoppe)
 * [Thia's Apothecary](marketplace/thias_apothecary)
 * [Bulletin Board](http://vesselonline.org/cgi-bin/pphost_bb.cgi)
+* [More information ...](marketplace/index)
 
 ## The Officials - 1
 
