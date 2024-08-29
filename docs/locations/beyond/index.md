@@ -16,9 +16,9 @@ If you've [read your history](../../general/history_of_haven#the-tearing-of-have
 
 ### Fistandia's Magnificent Mansion
 
-Not exactly part of Haven, but at least it's now reliably accessible.  Well, if you have a particular book, *The Joy of Extradimensional Spaces* (we're looking at you, [Drusilla](../scholars/drusillas_forest)) and know what the super secret code word is (cough it up, [Cassandra](../scholars/cassandras_magic) ).  Oh, and you most definitely want to know what the other super secret code word is, the one that gets you out.  Be warned, the most recent egress from the mansion was on the upper slopes of the aforementioned Mt. Holbart.
+Not exactly part of Haven, but at least it's now reliably accessible.  Well, if you have a particular book, *The Joy of Extradimensional Spaces* (we're looking at you, [Drusilla](../scholars/drusillas_forest)) and know what the super secret code word is (cough it up, [Cassandra](../scholars/cassandras_magic)).  Oh, and you most definitely want to know what the other super secret code word is, the one that gets you out.  Be warned, the most recent egress from the mansion was on the upper slopes of the aforementioned Mt. Holbart.
 
-If you manage to get inside, you'll find a peculiar cast of characters, some friendly and others less so.  Mostly, however, you'll gain access to Fistandia's incredible collection of books, which span all manner of subjects.  There is plenty of knowledge to be gained and likely some secrets left to uncover!  Read more about it in our brave adventurers' [extensive report](https://www.worldanvil.com/w/haven---kag-edition-agbadza79/a/the-joy-of-extradimensional-spaces-plot).
+If you manage to get inside, you'll find a peculiar cast of characters, some friendly and others less so.  Mostly, however, you'll gain access to Fistandia's incredible collection of books, which span all manner of subjects, and her laboratories.  There is plenty of knowledge to be gained and likely some secrets left to uncover!  Read more about it in our brave adventurers' [extensive report](https://www.worldanvil.com/w/haven---kag-edition-agbadza79/a/the-joy-of-extradimensional-spaces-plot).
 
 ### The Ribbon
 

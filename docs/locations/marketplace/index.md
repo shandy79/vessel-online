@@ -16,4 +16,14 @@ If you're looking for a [trinket](https://www.dndbeyond.com/sources/phb/equipmen
 
 ### Amberdune Books
 
-So far, all you know is that this stall 1) sells interesting and potentially expensive books, 2) is new in town, 3) is not licensed (?!), and 4) may be selling monsters.  You've seen three people working there so far:  Ramah, runner of auctions, apparent bon vivant; Inbar, a bookish fellow wearing a tidy vest and spectacles, also Ramah's brother; and ????, an older fellow who tends to the books as one would tend to a garden, humming quietly while he works.  All three have dusky brown skin and blue eyes, with brown hair of various shades.  They seem well-dressed, though their clothes show some wear.
+What you have discovered is that this stall 1) sells interesting and potentially expensive books, 2) is new in town, 3) is recently licensed (thank the gods!), and 4) was for a short time selling monsters.  You've seen three people working there so far:  Ramah, runner of auctions, apparent bon vivant; Inbar, a bookish fellow wearing a tidy vest and spectacles, also Ramah's brother; and Zan, an older fellow who tends to the books as one would tend to a garden, humming quietly while he works.  All three have dusky brown skin and blue eyes, with brown hair of various shades.  They seem well-dressed, though their clothes show some wear.
+
+You've met the rest of the so-called [Amberdune Pack](../outer/index#the-amberdune-pack) at their odd home in the Outer City.  The leader of this operation is Korvala, who has done her explaining of the monstrous books to our heroes and then to [Cassandra](../scholars/cassandras_magic).  The tempestuous wizard negotiated a deal that will bring them back in the good graces of the town.  Read more about this particular tale in this [adventure report](https://www.worldanvil.com/w/haven---kag-edition-agbadza79/a/mazfroth-s-mighty-digressions-plot).
+
+## Events
+
+### Awakening Festival
+
+One of the first groups of people to appear since the [Tearing of Haven](../../general/history_of_haven#the-tearing-of-haven) in 1495 DR were pulled into the demiplane from a land known as Godsbreath.  These people are primarily farmers, but also brought from their culture an ethos of community, collaboration, and celebration through song.  In particular, they've proudly revived in Haven their Awakening Festival, celebrated annually in their home city of Promise.  During this festival, the history of the land is explored and shared throughout the streets, with music everywhere ringing out the *Awakening Song*.
+
+Two Proclaimers of the Covenant, clerics in their homeland, have been collaborating with local bards, artists, and clergy for the last year, building a new *Awakening Song* for Haven.  Since the history of Haven is quite short, this song weaves together stories from the various immigrant cultures that exist in the city.
