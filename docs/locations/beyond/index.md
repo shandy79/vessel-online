@@ -22,6 +22,12 @@ If you manage to get inside, you'll find a peculiar cast of characters, some fri
 
 ### The Ribbon
 
+The colloquial name for a band of farmland to the north and east of Haven.  So-called due to the dark red tinge of the soil that makes it stand out from the surrounding grasslands.  For reasons yet to be determined, the Ribbon's agricultural productivity has been declining ever since the Tearing.  This is a source of distress in Haven, for everyone from the farmers to the Mayor.
+
 ### The Rattle
 
+12 miles northeast from Haven, half a day's travel.  Supposedly infested by monstrous predators.  Despite this, reduced crop yields in the Ribbon combined with a growing population have pushed farmers into this dangerous territory, where the soil remains fertile.  There have been rumours of bulette attacks, though most folks in town don't like to talk about such things.  The intrepid people from Godsbreath work this area the most.
+
 #### Cradlelace Lake
+
+Once home to a thriving farm out in the Rattle.  It was isolated, but home to a happy family.  It survived the Tearing, but a couple of months after, a terrible storm and minor earthquake created a flooded sinkhole into which the manor house sunk.  This tragedy resulted in the loss of the entire family and the place has been considered cursed ever since.
