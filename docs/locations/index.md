@@ -23,6 +23,7 @@ title: Locations
 * [The Shopps - 5](#the-shopps---5)
 * [The Shadows - 6](#the-shadows---6)
 * [Outer City](#outer-city)
+* [Beyond Haven](#beyond-haven)
 
 ## The Marketplace
 
@@ -88,5 +89,11 @@ Between The Shopps and The Officials is the district called The Shadows, which i
 A newer, less refined area of the city sits outside the southern city wall.  As Haven has outgrown its original footprint, residents have started constructing homes and storefronts, varying widely in materials and permanence.  The city officials have tried to assist in bringing a semblance of order to the Outer City, but thus far, the Outer City has resisted.  This isn't to say that chaos reigns or that it's the city's seedy underbelly, but if you're looking for that sort of thing, you might find it here.  Most folks are still helpful, confused about their rapid, unplanned migration to Haven, and just figuring things out.  Just like you!
 
 * [More information ...](outer/index)
+
+## Beyond Haven
+
+Tired of city life?  More the exploring type?  Head out of Haven proper and into the wilds surrounding the town and beyond!  Here you'll find a catalogue of locations brave adventurers have encountered on their travels in the demiplane and beyond.
+
+* [More information ...](beyond/index)
 
 </div>
