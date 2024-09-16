@@ -25,3 +25,9 @@ Patience, a female tiefling, is the lead administrator for the Exploration House
 ### Scribble
 
 Scribble is an older kenku, although exactly how old is difficult to say.  She is very friendly and serves as the scribe and notary for the Exploration House.  When she's not busy copying maps, journals, and drawings, she serves tea and cookies to visitors, 'plays' music, and whistles at handsome males of whatever species.
+
+### Zensiro Qualanthri
+
+A Llewyrr elf, of the city of Karador, capital of Sarifal, which is once again situated on the island of Gwynneth in the Moonshae Isles.  Zensiro has trained as a steward of the Feywild and explorer of the elemental planes following the return of Karador to Gwynneth by High Lady Ordalf.  With the emergence of Haven, Zensiro has been dispatched by the High Lady to assist in the monitoring of planar travel.  He is devoted to the preservation of the natural state of the domains in which he serves.
+
+Zensiro is currently living out of his tent in the weirwood grove he discovered outside of town.  When he needs to travel into town, he typically breaks down the site, stashes his tent, and carries the rest of his possessions with him into town.  When it is necessary to stay in Haven proper, he prefers to spend the night in one of the Temple of All God's meditation rooms.  He will donate 1 gp per night if he is able and may take a meal at the cleric's quarters if necessary.  He is a friend of Baern Hoffenhorn.
