@@ -22,12 +22,26 @@ If you manage to get inside, you'll find a peculiar cast of characters, some fri
 
 ### The Ribbon
 
-The colloquial name for a band of farmland to the north and east of Haven.  So-called due to the dark red tinge of the soil that makes it stand out from the surrounding grasslands.  For reasons yet to be determined, the Ribbon's agricultural productivity has been declining ever since the Tearing.  This is a source of distress in Haven, for everyone from the farmers to the Mayor.
+The name given to a band of farmland to the north and east of Haven.  It is so called due to the dark red tinge of the soil that makes it stand out from the surrounding grasslands.  For reasons yet to be determined, the Ribbon's agricultural productivity has been declining ever since the Tearing.  This is a source of distress in Haven, for everyone from the farmers to the Mayor.
 
 ### The Rattle
 
-12 miles northeast from Haven, half a day's travel.  Supposedly infested by monstrous predators.  Despite this, reduced crop yields in the Ribbon combined with a growing population have pushed farmers into this dangerous territory, where the soil remains fertile.  There have been rumours of bulette attacks, though most folks in town don't like to talk about such things.  The intrepid people from Godsbreath work this area the most.
+Beyond the Ribbon, lies the Rattle.  This swath of land starts roughly twelve miles northeast of Haven, or half a day's travel.  It's important to note that the Rattle is ~supposedly~ definitely infested by monstrous predators, including ravenous [bulettes](https://www.dndbeyond.com/monsters/16818-bulette), colloquially known as land sharks.  Most folks in town don't like to talk about such things.  Despite this, reduced crop yields in the Ribbon combined with a growing population have pushed farmers into this dangerous territory, where the soil remains fertile.  The intrepid people from Godsbreath are those most likely to be found living and working in this area.
 
 #### Cradlelace Lake
 
 Once home to a thriving farm out in the Rattle.  It was isolated, but home to a happy family.  It survived the Tearing, but a couple of months after, a terrible storm and minor earthquake created a flooded sinkhole into which the manor house sunk.  This tragedy resulted in the loss of the entire family and the place has been considered cursed ever since.
+
+### The Reek
+
+Beyond even the Rattle lies the Reek.  As far as anyone in town is willing to acknowledge, this stretch of fetid marshland stretches interminably to the east.  Its soggy terrain is populated with all manner of nasty creatures, though there are rumours that the [Exploration House](../officials/exploration_house) has guides with some knowledge of trails into the Reek.  Maps of this area are not available in town and travel to the Reek is discouraged in the strongest possible terms.
+
+Our heroes have recently heard reports from Uncle Polder and other farmers in the Rattle that the [Mayor](../officials/town_hall#mayor-horatio-thorndown), [Lt. Lotham](../officials/guardhouse#lieutenant-lotham-anaxapurna), members of the Exploration House, and a cadre of engineers had ventured out into the Reek.
+
+## Residents
+
+### Uncle Polder
+
+Uncle Polder, a settler from Godsbreath, is in charge of one of the pacts farming the Rattle.  He's an older gentleman who prefers to amble about with a smile on his face, being a good neighbour to those in need.  However, Uncle Polder can move when he needs to, as was demonstrated in the party's first encounter with this fellow when he was fleeing three dire coyotes alongside Broxi and Jahla.
+
+He's looked to by the other farmers in the Rattle for his agricultural knowledge and hard-earned wisdom.  Having lost a friend to a bulette attack, Uncle Polder has vowed that everyone's life is worth saving.

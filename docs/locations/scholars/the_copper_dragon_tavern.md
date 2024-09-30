@@ -38,7 +38,7 @@ Theran, a half-elf, was a fighter, originally from Yartar, a city on west coast 
 
 ### Zizza Amakiir
 
-Zizza, a human, grew up on the streets of Waterdeep an orphan, where she learned to steal, pick pockets, then locks, and became an adventurer this way.  She was in the market when the gnomes and Danarians first came and was one of the first to learn about Haven.  She went back with them, then found work at the Copper Dragon, which is where she and Theran first met.  She says she fell in love with Theranat first sight and that Theran just needed a little time to get on board.  Zizza says the next time they go to [Cassandra's Magic](./cassandras_magic) for the purpose of having another child, she wants to be the father.  Theran isn't sure if this is a promise or a threat.
+Zizza, a human, grew up on the streets of Waterdeep an orphan, where she learned to steal, pick pockets, then locks, and became an adventurer this way.  She was in the market when the gnomes and Danarians first came and was one of the first to learn about Haven.  She went back with them, then found work at the Copper Dragon, which is where she and Theran first met.  She says she fell in love with Theran at first sight and that Theran just needed a little time to get on board.  Zizza says the next time they go to [Cassandra's Magic](./cassandras_magic) for the purpose of having another child, she wants to be the father.  Theran isn't sure if this is a promise or a threat.
 
 ## Downtime Activities
 

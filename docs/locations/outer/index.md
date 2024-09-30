@@ -36,7 +36,9 @@ What's a street urchin queenpin without her gaggle of willing accomplices?  You 
 
 ### The Amberdune Pack
 
-Odd, windowless house, one of the larger and more sturdy in the Outer City.  Door is currently in disrepair.  Seven of them, known to the party as jackalweres.  Operate [Amberdune Books](../marketplace/index#amberdune-books).  Previously of Baldur's Gate, led by Korvala.
+They live in that odd, windowless house, one of the larger and more sturdy in the Outer City.  The door is currently in disrepair, probably the work of some vandals, jealous of their home.  There are seven in all, led by Korvala, and our heroes know them to be jackalweres.  Collectively, they operate [Amberdune Books](../marketplace/index#amberdune-books) in the Marketplace.  Previously, they lived in Baldur's Gate, but were pulled into Haven while fleeing the [Flaming Fist](https://forgottenrealms.fandom.com/wiki/Flaming_Fist) and adventurers from [Candlekeep](https://forgottenrealms.fandom.com/wiki/Candlekeep).
+
+The other pack members are Avani (den mother), Inbar (studious), Marliza (cute and cunning), Ramah (Gaston vibes), Theryn (young and deft), and Zan (humming old man).
 
 Read more about this particular tale in this [adventure report](https://www.worldanvil.com/w/haven---kag-edition-agbadza79/a/mazfroth-s-mighty-digressions-plot).
 

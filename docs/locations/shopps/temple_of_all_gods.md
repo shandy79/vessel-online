@@ -22,3 +22,8 @@ He believes that his relocation to Haven is a sign from the Wandering Tinker tha
 
 While a dwarf might typically chafe at the notion of working in a district that eschews the sale of alcohol, Baern is abstaining for the time being.  This is due to his notion that if he were to have another episode similar to the one that brought him to Haven, he might again be transported away.  While he misses the great halls of Ironmaster and the forgesong, Baern has developed a strong fondness for Haven and appreciates the importance of his role with the Temple and enjoys being an informal representative of the Shopps.
 
+### Proclaimer Tungsten Ward
+
+Tungsten Ward is a young man with a modest presence, but conducts himself with a savvy that exceeds his age.  Another settler from Godsbreath that's made a mark in Haven, Proclaimer Ward has brought along his interest in magical manifestations and takes every opportunity to catalogue noteworthy events to be added to the *Awakening Song*.
+
+The industrious Proclaimer generally operates out of the Temple, where he has proven to be every bit as enthusiastic as Baern, occasionally to the dwarf's chagrin.  At the moment, he is out in the Rattle working to help restore the pact that was shattered by Culley's Soul Shaker.
