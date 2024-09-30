@@ -26,7 +26,7 @@ The name given to a band of farmland to the north and east of Haven.  It is so c
 
 ### The Rattle
 
-Beyond the Ribbon, lies the Rattle.  This swath of land starts roughly twelve miles northeast of Haven, or half a day's travel.  It's important to note that the Rattle is ~supposedly~ definitely infested by monstrous predators, including ravenous [bulettes](https://www.dndbeyond.com/monsters/16818-bulette), colloquially known as land sharks.  Most folks in town don't like to talk about such things.  Despite this, reduced crop yields in the Ribbon combined with a growing population have pushed farmers into this dangerous territory, where the soil remains fertile.  The intrepid people from Godsbreath are those most likely to be found living and working in this area.
+Beyond the Ribbon, lies the Rattle.  This swath of land starts roughly twelve miles northeast of Haven, or half a day's travel.  It's important to note that the Rattle is ~~supposedly~~ definitely infested by monstrous predators, including ravenous [bulettes](https://www.dndbeyond.com/monsters/16818-bulette), colloquially known as land sharks.  Most folks in town don't like to talk about such things.  Despite this, reduced crop yields in the Ribbon combined with a growing population have pushed farmers into this dangerous territory, where the soil remains fertile.  The intrepid people from Godsbreath are those most likely to be found living and working in this area.
 
 #### Cradlelace Lake
 

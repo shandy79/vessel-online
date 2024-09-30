@@ -24,6 +24,6 @@ While a dwarf might typically chafe at the notion of working in a district that 
 
 ### Proclaimer Tungsten Ward
 
-Tungsten Ward is a young man with a modest presence, but conducts himself with a savvy that exceeds his age.  Another settler from Godsbreath that's made a mark in Haven, Proclaimer Ward has brought along his interest in magical manifestations and takes every opportunity to catalogue noteworthy events to be added to the *Awakening Song*.
+Tungsten Ward is a young man with a modest presence, but conducts himself with a savvy that exceeds his age.  Another settler from Godsbreath that's made a mark in Haven, Proclaimer Ward has brought along his interest in magical manifestations and takes every opportunity to catalogue noteworthy events to be added to the *Awakening Song*.  Maintaining and growing this chronicle, along with spreading the word of the pantheon of Godsbreath, is the domain of the Proclaimers of the Covenant.
 
-The industrious Proclaimer generally operates out of the Temple, where he has proven to be every bit as enthusiastic as Baern, occasionally to the dwarf's chagrin.  At the moment, he is out in the Rattle working to help restore the pact that was shattered by Culley's Soul Shaker.
+The industrious Proclaimer Ward generally operates out of the Temple, where he has proven to be every bit as enthusiastic as Baern, occasionally to the dwarf's chagrin.  At the moment, he is out in the Rattle working to help restore the pact that was shattered by Culley's Soul Shaker.
