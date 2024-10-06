@@ -40,3 +40,26 @@ Liora is a surprisingly elderly elf who serves as the primary registrar for the 
 A representative of the diversity of beings that have been pulled to Haven, Marley is a not quite surly, not quite friendly centaur that found his career path in Town Hall.  He is an odd fit behind the registrar's desk, both physically and in terms of where one might expect to find a centaur.  Mayor Thorndown is quite fond of Marley, as he reminds him of the bariaur that seemingly lured the Mayor and Lieutenant Anaxapurna to Haven.
 
 Nearly as effective and far less wordy than Liora, Marley often works the morning shift while Liora wanders the local forests.  When she returns, Marley heads off to do his own strolling about in the wilderness.  The two of them are likely sources of information about peculiar things to be found out in those parts.
+
+## Town Council
+
+This group consists of individuals elected or appointed to represent the various districts and organizations in Haven.  While the council has existed in some form since shortly after the founding of Haven, Mayor Thorndown has expanded both the council membership and its role in decision-making for the town.  In his opinion, as Haven grows, so should the council.  He believes that with more input from the townfolk, he and the council will be able to make better decisions regarding the future of Haven.
+
+The composition varies over time, with some positions fixed, based on specific roles, and others elected by districts.  See the table below for more information and the current council roster.
+
+| Organization | Incumbent | Term | Notes |
+| ------------ | --------- | ---- | ----- |
+| Office of the Mayor | Horatio Thorndown | 3 years | elected by citizens of Haven, repeatable |
+| Mages' Triumvirate | [Cassandra](../scholars/cassandras_magic#cassandra) | 4 months | rotates between [Myk](../marketplace/myks_magic_shoppe#mykazhin-longreen), [Drusilla](../scholars/drusillas_forest#drusilla-liadon), Cassandra |
+| Guardhouse | [Thoradan Kolar](../officials/guardhouse#captain-thoradan-kolar) | permanent | filled by the current Captain of the Town Guard |
+| Exploration House | [Alston Garrick](../officials/exploration_house#alston-garrick) | permanent | filled by the current chief |
+| Temple of All Gods | Tungsten Ward | 1 year | elected by the Temple's clergy, rotates |
+| Marketplace | [Rieta Brightwood](../marketplace/thias_apothecary#rieta-brightwood) | 1 year | elected by the Vendors' Association, rotates |
+| The Officials | Irene de Ville | 3 years | Irene holds the position by consensus |
+| The Burrows | Craik McFadzean | permanent | traditionally held by the oldest gnome in Haven |
+| The Crafts | Varrin Axemaker | 1 year | elected by the Crafts' Guild, rotates |
+| The Scholars | [Theran Amakiir](../scholars/the_copper_dragon_tavern#theran-amakiir) | 1 year | elected by the Assembly of Learning, rotates |
+| The Shopps | [Moxie Rockets](../shopps/the_arcade#moxie-rockets) | 1 year | elected by the Shopps' Collective, rotates |
+| The Shadows | ???? | 1 year | currently held by the lead Priest of Tymora |
+| Outer City | [Korvala](../outer/index#the-amberdune-pack) | 1 year | elected by the citizens, rotates.  Seat was recently added by Mayor Thorndown.  Korvala was promoted as a candidate by Cassandra. |
+| The Ribbon & Rattle | [Delanore Godsen](../beyond/index#aunt-delanore-godsen) | 1 year | elected by the citizens, rotates.  Seat was recently added by Mayor Thorndown. |

@@ -45,7 +45,7 @@ The cluster of buildings at the north of the interior of the wall is known as Th
 * [The Guardhouse](officials/guardhouse)
   * Adjacent to the city wall, a large stone building of dwarven design with a tower that houses various facilities for the Town Guards.
 * Irene's Lodging Facility
-  * A boarding house operated by Irene De Ville, it offers rooms for rent.  Often a landing place for new arrivals while they get established in Haven.
+  * A boarding house operated by Irene de Ville, it offers rooms for rent.  Often a landing place for new arrivals while they get established in Haven.
 * Town Meeting Room
   * A 40'x40' building at the north end of the Marketplace.  Used for public meetings, plays, talent shows, music recitals, etc., and can be reserved by any Haven resident for 50gp per day.  The sign-up sheet is in the Mayor's Office and reservations are subject to the Mayor's approval.
 
