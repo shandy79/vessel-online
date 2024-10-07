@@ -74,7 +74,7 @@ h4 {
 table { border-collapse: collapse; }
 th {
   padding-right: 12px;
-  text-align: right;
+  text-align: left;
 }
 td {
   font-size: 12pt;
