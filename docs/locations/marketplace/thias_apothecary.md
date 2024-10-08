@@ -13,7 +13,7 @@ Thia's Apothecary is a modest wood and plaster building in the middle of the Mar
 ### Potions
 
 | Type | Price (gp) |
-| :--- | ---------- |
+| ---- | ---------- |
 | [Healing](https://www.dndbeyond.com/equipment/71-potion-of-healing) | 50 |
 | [Climbing](https://www.dndbeyond.com/magic-items/4702-potion-of-climbing) | 75 |
 | [Animal Friendship](https://www.dndbeyond.com/magic-items/4700-potion-of-animal-friendship) | 100 |
@@ -26,7 +26,7 @@ Thia's Apothecary is a modest wood and plaster building in the middle of the Mar
 ### Spices
 
 | Type (1lb sack) | Price (gp) |
-| :-------------- | ---------- |
+| --------------- | ---------- |
 | Ginger | 1 |
 | Cinnamon | 2 |
 | Pepper | 2 |
@@ -36,7 +36,7 @@ Thia's Apothecary is a modest wood and plaster building in the middle of the Mar
 ### Miscellaneous
 
 | Type | Price |
-| :--- | ----- |
+| ---- | ----- |
 | [Acid (vial)](https://www.dndbeyond.com/equipment/acid-vial) | 25gp |
 | [Alchemist's Fire (flask)](https://www.dndbeyond.com/equipment/alchemists-fire-flask) | 50gp |
 | [Antitoxin](https://www.dndbeyond.com/equipment/antitoxin) | 50gp |

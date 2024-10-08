@@ -38,10 +38,22 @@ Beyond even the Rattle lies the Reek.  As far as anyone in town is willing to ac
 
 Our heroes have recently heard reports from Uncle Polder and other farmers in the Rattle that the [Mayor](../officials/town_hall#mayor-horatio-thorndown), [Lt. Lotham](../officials/guardhouse#lieutenant-lotham-anaxapurna), members of the Exploration House, and a cadre of engineers had ventured out into the Reek.
 
-## Residents
+## People
+
+### Delanore Godsen
+
+Better known around Haven as Aunt Dellie, this small, dedicated woman from Godsbreath is a trader and skimmer boat pilot who is slowy amassing a good deal of knowledge about Haven's lands and threats.  She actively travels along the River Po, searching for promising farm lands and noteworthy new sites.  Aunt Dellie currently serves as the first representative of The Ribbon and The Rattle on the Town Council and helps to communicate the concerns of those hard-working folks to the residents and administrators of the town.
+
+Aunt Dellie is generous, brave, soft-spoken, honest, and overwhelmingly well-liked in both the town and beyond.  With her easygoing and trustworthy nature, she holds the confidence of a great many folks in Haven.
 
 ### Uncle Polder
 
 Uncle Polder, a settler from Godsbreath, is in charge of one of the pacts farming the Rattle.  He's an older gentleman who prefers to amble about with a smile on his face, being a good neighbour to those in need.  However, Uncle Polder can move when he needs to, as was demonstrated in the party's first encounter with this fellow when he was fleeing three dire coyotes alongside Broxi and Jahla.
 
 He's looked to by the other farmers in the Rattle for his agricultural knowledge and hard-earned wisdom.  Having lost a friend to a bulette attack, Uncle Polder has vowed that everyone's life is worth saving.
+
+### Kianna
+
+The goddaughter of Aunt Dellie, Kianna worked in a devastated pact in The Rattle until she was recently possessed by the spirit of her dead friend, Culley.  This incident included the possession of all of the farmers of her pact, a minor invasion of Haven during the Awakening Festival, and the deaths of a few of the good farmers while under Culley's wicked sway.
+
+Kianna was rescued by our heroes after they defeated Culley in his Soul Shaker form and returned to Haven, where she is recuperating with her godmother.  Kianna has vowed to return to The Rattle to work as a means of atoning for what Culley has done to that community.  Read more about this tragic chapter in [this report](https://www.worldanvil.com/w/haven---kag-edition-agbadza79/a/written-in-blood-plot).

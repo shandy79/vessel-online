@@ -8,6 +8,8 @@ title: Town Hall
 
 If you've made your way to the Town Hall, you'd best hope it's not to defend yourself in the Courtroom, where [justice](../../general/laws_of_haven) is served out in a manner that is harsh, but fair.  Instead, aim to have a consultation with the good mayor or to sit in on a raucous session of the City Council.  Or avail yourself of the helpful people working there, hoping to make your life in Haven a little bit easier.
 
+## Services
+
 The Town Hall makes available numerous services for the people of Haven.  The stated goal of the current administration is that no one is left behind.  Most in Haven are not there of their own volition, so Mayor Thorndown has taken up the cause of providing a good start for all, regardless of their circumstances.  Services performed at Town Hall include, but are not limited to the following:
 
 * Immigration
@@ -19,7 +21,7 @@ The Town Hall makes available numerous services for the people of Haven.  The st
 * Tax Collection
   * All of these services don't come for free, so it is necessary for the Town Hall to collect a nominal tax on commercial transactions.  For those that simply labour and don't operate a business directly, this is generally not a consideration.  For business owners, or those that employ adventurers, directing payments to the Town Guard is just a part of life in Haven.
 * Legal Services
-  * Legal counsel can be provided upon request to those presenting cases to the Courtroom.  Good fortune has resulted in the appearance of three capable barristers in Haven, ensuring that all parties have effective and fair representation in legal matters.  The Laws of Haven are strictly enforced in the Courtroom through a combination of the disciplined Town Guard, the acting prosecutor, and the sitting judge.
+  * Legal counsel can be provided upon request to those presenting cases to the Courtroom.  Good fortune has resulted in the appearance of three capable barristers in Haven, ensuring that all parties have effective and fair representation in legal matters.  The Laws of Haven are strictly enforced in the Courtroom through a combination of the disciplined Town Guard and the Judicial Council.
 
 ## Staff
 
@@ -63,3 +65,21 @@ The composition varies over time, with some positions fixed, based on specific r
 | The Shadows | ???? | 1 year | currently held by the lead Priest of Tymora |
 | Outer City | [Korvala](../outer/index#the-amberdune-pack) | 1 year | elected by the citizens, rotates.  Seat was recently added by Mayor Thorndown.  Korvala was promoted as a candidate by Cassandra. |
 | The Ribbon & Rattle | [Delanore Godsen](../beyond/index#aunt-delanore-godsen) | 1 year | elected by the citizens, rotates.  Seat was recently added by Mayor Thorndown. |
+
+## Judicial Council
+
+Members of the Judicial Council serve in a fascinating multi-role capacity, largely due to the dearth of legal expertise among the residents of Haven.  With three members, there is a monthly rotation between the roles of prosecutor, defence lawyer, and judge.  There is some thought that levels of crime fluctuate depending on the criminals' opinions of which member of the Council is currently in which role, but no one has conducted an empirical study to determine if that is the case.
+
+The Council meets regularly on the third and fifth day of the week, unless the caseload demands more frequent sessions.  On days when the Council isn't hearing cases, they spend time meeting with their clients, conducting investigations, and coordinating with the Town Guard.
+
+### Councillor Voss Anderton
+
+Councillor Anderton is the very model of a lawyer:  precise, measured, unswayed by emotion.  A human male and vaguely middle-aged, the councillor boasts perfect attendance in court and is well-liked in the role of judge, as he always considers the negative impact of lengthy and overly punitive sentencing on both the defendants and the community.  Haven still needs all able-bodied folk to contribute as it grows.
+
+### Councillor Jil Torbo
+
+Councillor Torbo is a halfling woman seemingly filled with sighs, yet short on patience.  Perhaps jaded from a lifetime of not being taken seriously in her profession, Councillor Torbo wears an irritated facade that covers up a soft spot for the downtrodden that plead their cases before her.  Despite her apparent exasperation with both the prosecution and the defence in most matters, she is often lenient on sentencing.
+
+### Councillor Kriv Norixius
+
+Of the three, this silver dragonborn is the most magisterial.  Along with that air of authority comes a severity that outstrips that of his two colleagues.  Councillor Norixius has no time for those who violate the law and order that is so vital to a well-functioning society.
