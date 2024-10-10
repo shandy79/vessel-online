@@ -55,7 +55,7 @@ The composition varies over time, with some positions fixed, based on specific r
 | Mages' Triumvirate | [Cassandra](../scholars/cassandras_magic#cassandra) | 4 months | rotates between [Myk](../marketplace/myks_magic_shoppe#mykazhin-longreen), [Drusilla](../scholars/drusillas_forest#drusilla-liadon), Cassandra |
 | Guardhouse | [Thoradan Kolar](../officials/guardhouse#captain-thoradan-kolar) | permanent | filled by the current Captain of the Town Guard |
 | Exploration House | [Alston Garrick](../officials/exploration_house#alston-garrick) | permanent | filled by the current chief |
-| Temple of All Gods | Tungsten Ward | 1 year | elected by the Temple's clergy, rotates |
+| Temple of All Gods | [Tungsten Ward](../shopps/temple_of_all_gods#proclaimer-tungsten-ward) | 1 year | elected by the Temple's clergy, rotates |
 | Marketplace | [Rieta Brightwood](../marketplace/thias_apothecary#rieta-brightwood) | 1 year | elected by the Vendors' Association, rotates |
 | The Officials | Irene de Ville | 3 years | Irene holds the position by consensus |
 | The Burrows | Craik McFadzean | permanent | traditionally held by the oldest gnome in Haven |
@@ -64,7 +64,7 @@ The composition varies over time, with some positions fixed, based on specific r
 | The Shopps | [Moxie Rockets](../shopps/the_arcade#moxie-rockets) | 1 year | elected by the Shopps' Collective, rotates |
 | The Shadows | ???? | 1 year | currently held by the lead Priest of Tymora |
 | Outer City | [Korvala](../outer/index#the-amberdune-pack) | 1 year | elected by the citizens, rotates.  Seat was recently added by Mayor Thorndown.  Korvala was promoted as a candidate by Cassandra. |
-| The Ribbon & Rattle | [Delanore Godsen](../beyond/index#aunt-delanore-godsen) | 1 year | elected by the citizens, rotates.  Seat was recently added by Mayor Thorndown. |
+| The Ribbon & Rattle | [Delanore Godsen](../beyond/index#delanore-godsen) | 1 year | elected by the citizens, rotates.  Seat was recently added by Mayor Thorndown. |
 
 ## Judicial Council
 
