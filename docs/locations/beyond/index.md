@@ -10,9 +10,15 @@ While Haven is a bustling, burgeoning town, quickly outgrowing its walls, it occ
 
 ## Locations
 
+Additional locations presented in more detail include:
+
+* [Revel's End](./revels_end)
+
 ### Mount Holbart
 
 If you've [read your history](../../general/history_of_haven#the-tearing-of-haven), you already know that Hendor Holbart created a lot of problems for Haven when the wizarding tower he built atop a mountain detonated, leaving a massive crater that became a lake.  That mountain is now known as Mt. Holbart, a prime fishing destination and the subject of many superstitious tales.  It lies three days south of Haven with access via a crude road that winds its way into the forest surrounding the mountain, becoming a loosely maintained trail.  There are folks that know there way around the slopes of the mountain and where to access the best fishing spots from the crater's rim, but you'll have to inquire with the [Exploration House](../officials/exploration_house) to find out more.
+
+Our heroes have discovered that the explosion of Mount Holbart may have been the result of some interference by one of the residents of Revel's End.
 
 ### Fistandia's Magnificent Mansion
 

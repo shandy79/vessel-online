@@ -94,6 +94,7 @@ A newer, less refined area of the city sits outside the southern city wall.  As 
 
 Tired of city life?  More the exploring type?  Head out of Haven proper and into the wilds surrounding the town and beyond!  Here you'll find a catalogue of locations brave adventurers have encountered on their travels in the demiplane and beyond.
 
+* [Revel's End](beyond/revels_end)
 * [More information ...](beyond/index)
 
 </div>
